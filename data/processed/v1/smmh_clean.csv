@@ -1,0 +1,482 @@
+age,age_band,gender_clean,gender_grouped,relationship_status,occupation_status,uses_social_media,daily_time_band,daily_hours_midpoint,platform_facebook,platform_twitter,platform_instagram,platform_youtube,platform_snapchat,platform_discord,platform_reddit,platform_pinterest,platform_tiktok,platform_count,affil_university,affil_school,affil_company,affil_private,affil_government,affil_na,purposeless_use,distracted_when_busy,restless_without_sm,easily_distracted,worries_bother,difficulty_concentrating,compare_to_successful,comparison_feelings,seek_validation,low_mood_freq,interest_fluctuation,sleep_issues,platforms_raw,org_affiliations_raw,include_in_analysis
+21,18-24,Male,Male,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,0,1,1,0,0,6,1,0,0,0,0,1,5,3,2,5,2,5,2,3,2,5,4,5,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",University,True
+21,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,0,1,1,0,0,6,1,0,0,0,0,1,4,3,2,4,5,4,5,1,1,5,4,5,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,0,0,1,0,4,1,0,0,0,0,1,3,2,1,2,5,4,3,3,1,4,2,5,"Facebook, Instagram, YouTube, Pinterest",University,True
+21,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,0,0,0,0,0,0,2,1,0,0,0,0,1,4,2,1,3,5,3,5,1,2,4,3,2,"Facebook, Instagram",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,3,5,4,4,5,5,3,3,3,4,4,1,"Facebook, Instagram, YouTube",University,True
+22,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,0,1,0,1,1,7,1,0,0,0,0,1,4,4,2,3,4,3,4,4,3,3,2,4,"Facebook, Twitter, Instagram, YouTube, Discord, Pinterest, TikTok",University,True
+21,18-24,Female,Female,Married,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,0,0,0,1,5,1,0,0,0,0,1,4,3,2,2,4,3,5,3,4,5,5,3,"Facebook, Instagram, YouTube, Snapchat, TikTok",University,True
+21,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,5,2,3,3,3,1,1,3,1,5,5,1,"Facebook, Instagram, YouTube",University,True
+21,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,5,2,3,3,1,1,1,3,1,5,5,1,"Facebook, Instagram, YouTube",University,True
+20,18-24,Male,Male,Single,University Student,False,Less than an Hour,0.5,0,0,0,0,0,0,1,1,0,2,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,"Reddit, Pinterest",University,False
+24,18-24,Male,Male,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,0,1,0,0,0,4,1,0,0,0,0,1,5,5,2,4,3,5,4,2,3,5,4,5,"Facebook, Instagram, YouTube, Discord",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,1,1,1,1,8,1,0,0,0,0,1,4,4,2,5,3,4,2,2,3,3,4,2,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",University,True
+22,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,1,1,1,1,0,8,1,0,0,0,0,1,3,4,2,4,4,2,4,2,1,3,1,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,1,0,1,1,0,7,1,0,0,0,0,1,5,3,2,1,4,4,2,3,2,3,3,3,"Facebook, Twitter, Instagram, YouTube, Snapchat, Reddit, Pinterest",University,True
+22,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,0,0,1,0,0,0,1,0,3,1,0,0,0,0,1,5,5,5,5,5,5,5,5,5,5,5,5,"Facebook, YouTube, Pinterest",University,True
+23,18-24,Male,Male,In a relationship,University Student,True,Between 1 and 2 hours,1.5,1,0,1,1,0,0,1,0,0,4,0,0,0,1,0,1,3,4,2,3,4,4,3,2,2,3,4,2,"Facebook, Instagram, YouTube, Reddit",Private,True
+21,18-24,Male,Male,Single,University Student,True,Less than an Hour,0.5,1,0,0,1,0,1,0,0,0,3,1,0,0,0,0,1,2,2,1,2,4,2,1,3,1,4,1,3,"Facebook, YouTube, Discord",University,True
+25,25-34,Male,Male,Single,School Student,True,Between 4 and 5 hours,4.5,1,0,1,1,0,0,1,0,0,4,0,0,0,0,0,1,5,5,4,4,3,3,1,4,2,2,2,2,"Facebook, Instagram, YouTube, Reddit",,True
+28,25-34,Male,Male,Single,University Student,True,Between 1 and 2 hours,1.5,1,0,0,1,0,1,1,0,0,4,1,0,0,0,0,1,3,4,2,4,5,5,2,3,1,3,3,1,"Facebook, YouTube, Discord, Reddit",University,True
+34,25-34,Male,Male,Divorced,Salaried Worker,True,Between 1 and 2 hours,1.5,1,1,1,1,0,0,0,0,0,4,0,0,0,1,0,1,2,4,3,3,4,1,1,5,3,2,2,2,"Facebook, Twitter, Instagram, YouTube",Private,True
+22,18-24,Male,Male,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,0,1,1,0,0,5,1,1,0,0,0,1,4,2,2,3,3,2,2,2,1,2,3,2,"Facebook, Instagram, YouTube, Discord, Reddit","School, University",True
+23,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,0,1,1,0,1,7,1,0,0,0,0,1,3,2,4,2,4,2,5,2,1,3,3,1,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, TikTok",University,True
+26,25-34,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,0,0,1,0,4,1,0,0,0,0,1,3,4,3,3,4,4,4,3,3,4,4,4,"Facebook, Instagram, YouTube, Pinterest",University,True
+23,18-24,Female,Female,Married,University Student,True,Between 1 and 2 hours,1.5,1,0,1,1,1,0,0,1,0,5,1,0,0,0,0,1,3,2,2,4,4,3,3,2,3,4,4,1,"Facebook, Instagram, YouTube, Snapchat, Pinterest",University,True
+23,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,0,1,0,1,0,0,0,4,0,0,0,0,0,1,3,3,5,5,5,5,4,1,3,3,5,5,"Facebook, Twitter, YouTube, Discord",,True
+35,35-44,Female,Female,Married,Salaried Worker,True,Between 3 and 4 hours,3.5,1,0,0,1,0,0,0,0,0,2,1,1,0,0,0,1,4,4,3,3,3,3,4,4,4,4,2,2,"Facebook, YouTube","School, University",True
+20,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,1,0,0,0,4,1,0,0,0,0,1,4,4,3,3,3,4,2,3,3,4,3,4,"Facebook, Instagram, YouTube, Discord",University,True
+35,35-44,Male,Male,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,1,1,1,1,0,0,0,0,0,4,0,0,1,0,0,1,2,4,4,4,4,4,4,4,4,4,4,5,"Facebook, Twitter, Instagram, YouTube",Company,True
+22,18-24,Female,Female,In a relationship,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,1,0,1,1,7,1,0,0,0,0,1,3,4,3,4,5,4,4,3,2,4,4,1,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,4,4,5,5,5,4,4,4,3,5,4,1,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+22,18-24,Female,Female,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,1,0,0,0,4,1,0,0,0,0,1,4,4,3,3,5,4,5,2,3,5,4,3,"Facebook, Instagram, YouTube, Discord",University,True
+35,35-44,Male,Male,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,0,1,0,0,0,1,0,3,0,0,0,1,0,1,3,4,3,3,3,2,2,2,2,3,4,2,"Facebook, YouTube, Pinterest",Private,True
+24,18-24,Male,Male,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,1,1,0,0,0,0,1,4,0,0,0,1,0,1,3,3,3,3,3,4,2,3,3,2,3,3,"Facebook, Instagram, YouTube, TikTok",Private,True
+18,18-24,Female,Female,Single,School Student,True,Between 2 and 3 hours,2.5,1,0,1,1,0,1,0,1,0,5,0,1,0,1,0,1,4,3,3,3,4,3,3,2,4,3,3,2,"Facebook, Instagram, YouTube, Discord, Pinterest","School, Private",True
+19,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,1,0,0,0,4,1,0,0,0,0,1,5,5,5,5,5,5,2,3,1,5,4,4,"Facebook, Instagram, YouTube, Discord",University,True
+21,18-24,Non-binary,Non-binary & Other,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,0,1,0,0,0,5,1,0,0,0,0,1,3,4,5,4,4,5,1,3,1,4,2,1,"Facebook, Twitter, Instagram, YouTube, Discord",University,True
+21,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,0,0,0,0,0,0,2,1,0,0,0,0,1,5,3,4,3,2,3,5,3,4,3,3,1,"Facebook, Instagram",University,True
+23,18-24,Male,Male,Single,University Student,True,Less than an Hour,0.5,1,1,1,1,1,1,1,0,0,7,1,0,0,0,0,1,2,3,1,1,1,3,1,3,1,5,4,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",University,True
+22,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,0,0,1,0,5,1,0,0,0,0,1,4,5,5,4,4,4,2,3,3,2,2,5,"Facebook, Instagram, YouTube, Snapchat, Pinterest",University,True
+22,18-24,Male,Male,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,0,1,0,1,0,0,0,3,1,0,1,0,0,1,4,4,2,4,3,5,1,3,1,1,3,4,"Facebook, YouTube, Discord","University, Company",True
+21,18-24,Female,Female,Single,University Student,True,Between 1 and 2 hours,1.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,1,1,1,1,1,1,2,1,2,3,3,1,"Facebook, Instagram, YouTube, Snapchat",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,3,5,2,3,3,3,3,4,2,4,2,2,"Facebook, Instagram, YouTube, Snapchat",University,True
+56,45+,Female,Female,Married,Retired,True,Between 1 and 2 hours,1.5,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1,3,1,1,3,1,2,3,1,YouTube,,True
+19,18-24,Female,Female,Single,School Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,1,0,5,1,1,0,0,0,1,3,2,4,4,5,4,5,2,1,5,4,2,"Facebook, Instagram, YouTube, Snapchat, Pinterest","School, University",True
+24,18-24,Male,Male,Single,Salaried Worker,True,More than 5 hours,5.5,0,1,0,0,0,1,1,0,0,3,0,0,0,1,0,1,5,1,1,3,3,3,1,3,3,3,3,3,"Twitter, Discord, Reddit",Private,True
+22,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,4,5,4,4,5,2,3,3,3,3,2,3,"Facebook, Instagram, YouTube",University,True
+65,45+,Male,Male,Married,Retired,True,Between 3 and 4 hours,3.5,1,0,0,1,0,0,0,0,0,2,0,0,0,0,1,1,5,3,2,2,2,1,3,4,3,1,3,2,"Facebook, YouTube",Goverment,True
+17,<18,Female,Female,Single,School Student,True,Between 3 and 4 hours,3.5,0,0,1,1,0,0,1,1,0,4,0,0,0,0,0,1,4,3,1,3,5,3,4,2,1,3,5,1,"Instagram, YouTube, Reddit, Pinterest",,True
+40,35-44,Male,Male,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,0,1,0,1,0,0,1,0,0,3,0,0,1,1,0,1,3,3,3,3,2,3,2,3,1,2,2,1,"Twitter, YouTube, Reddit","Company, Private",True
+33,25-34,Female,Female,Single,Salaried Worker,True,Between 3 and 4 hours,3.5,1,0,0,1,0,0,0,0,0,2,0,1,0,0,0,1,3,3,1,3,2,1,2,2,1,1,1,1,"Facebook, YouTube",School,True
+22,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,1,1,1,1,1,9,1,0,0,0,0,1,4,4,3,4,3,2,1,3,3,3,4,4,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",University,True
+24,18-24,Male,Male,Single,Salaried Worker,True,More than 5 hours,5.5,0,0,0,1,1,1,0,0,0,3,0,0,1,0,0,1,5,5,5,5,4,5,2,2,1,3,5,1,"YouTube, Snapchat, Discord",Company,True
+26,25-34,Male,Male,Single,University Student,True,Less than an Hour,0.5,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,3,5,3,5,5,5,5,5,5,5,5,5,Facebook,University,True
+55,45+,Male,Male,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,0,0,0,0,0,1,1,0,0,2,0,0,0,1,0,1,3,2,1,3,2,1,1,3,1,1,2,1,"Discord, Reddit",Private,True
+26,25-34,Male,Male,In a relationship,Salaried Worker,False,Between 1 and 2 hours,1.5,0,0,0,1,0,1,1,0,0,3,0,0,1,0,0,1,4,1,1,2,2,1,1,3,1,1,3,2,"YouTube, Discord, Reddit",Company,False
+27,25-34,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,1,0,1,0,1,7,1,0,0,0,0,1,2,5,5,4,4,5,3,3,4,5,2,3,"Facebook, Twitter, Instagram, YouTube, Snapchat, Reddit, TikTok",University,True
+22,18-24,Male,Male,Married,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,1,0,0,6,1,1,0,0,0,1,3,2,1,2,4,2,1,3,1,3,4,2,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit","School, University",True
+19,18-24,Female,Female,Single,School Student,True,Between 2 and 3 hours,2.5,1,0,1,1,0,1,0,1,0,5,0,1,0,0,0,1,3,2,2,2,4,3,3,3,2,4,4,5,"Facebook, Instagram, YouTube, Discord, Pinterest",School,True
+22,18-24,Female,Female,Married,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,1,1,1,1,1,9,1,0,0,0,0,1,4,5,2,4,4,4,3,3,4,5,4,2,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",University,True
+20,18-24,Female,Female,Married,University Student,True,Between 1 and 2 hours,1.5,0,0,1,0,0,0,1,0,0,2,1,0,0,0,0,1,1,1,1,2,2,2,1,3,1,1,3,5,"Instagram, Reddit",University,True
+25,25-34,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,0,1,0,0,0,5,1,0,0,0,0,1,4,3,3,4,4,4,2,2,2,4,3,4,"Facebook, Twitter, Instagram, YouTube, Discord",University,True
+25,25-34,Female,Female,Married,University Student,True,Between 1 and 2 hours,1.5,0,0,0,1,0,0,1,0,0,2,1,0,0,0,0,1,2,2,1,3,5,4,5,2,4,4,5,4,"YouTube, Reddit",University,True
+18,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,0,0,0,1,0,4,1,0,0,0,0,1,4,4,3,5,4,3,1,3,1,5,4,5,"Facebook, Instagram, YouTube, Pinterest",University,True
+25,25-34,Male,Male,Single,Salaried Worker,True,Between 1 and 2 hours,1.5,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,3,1,1,3,2,4,1,3,1,5,1,5,Reddit,,True
+19,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,1,2,3,1,5,3,5,1,3,1,1,5,4,"Discord, Reddit",,True
+24,18-24,Male,Male,In a relationship,School Student,True,Between 1 and 2 hours,1.5,0,0,0,1,0,1,1,0,0,3,1,0,0,0,0,1,3,2,4,3,2,2,1,3,2,2,4,4,"YouTube, Discord, Reddit",University,True
+21,18-24,Male,Male,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,1,0,0,0,1,0,1,4,1,0,0,0,0,1,5,5,5,5,5,5,5,2,4,4,4,1,"Facebook, Instagram, Reddit, TikTok",University,True
+18,18-24,Non-binary,Non-binary & Other,Single,School Student,True,Between 2 and 3 hours,2.5,0,1,1,1,0,0,1,0,1,5,0,1,0,0,0,1,2,1,2,3,5,3,2,3,2,4,2,4,"Twitter, Instagram, YouTube, Reddit, TikTok",School,True
+14,<18,Male,Male,Single,School Student,True,Between 1 and 2 hours,1.5,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,1,4,2,2,3,5,3,3,4,2,4,4,4,Reddit,School,True
+25,25-34,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,0,0,0,1,1,1,1,0,0,4,1,0,0,0,0,1,4,4,3,3,3,2,3,2,2,3,4,4,"YouTube, Snapchat, Discord, Reddit",University,True
+33,25-34,Male,Male,Married,Salaried Worker,True,Between 3 and 4 hours,3.5,0,0,1,1,0,0,0,0,0,2,0,0,0,1,0,1,2,4,3,2,2,2,1,1,1,1,2,2,"Instagram, YouTube",Private,True
+23,18-24,Male,Male,Single,School Student,True,Between 2 and 3 hours,2.5,0,0,1,1,0,1,1,0,0,4,1,0,1,0,0,1,5,5,5,5,5,5,5,5,5,5,5,5,"Instagram, YouTube, Discord, Reddit","University, Company",True
+14,<18,Female,Female,Single,School Student,True,More than 5 hours,5.5,0,1,1,1,1,0,1,1,1,7,0,1,0,0,0,1,4,4,2,2,4,2,4,2,4,4,4,5,"Twitter, Instagram, YouTube, Snapchat, Reddit, Pinterest, TikTok",School,True
+38,35-44,Male,Male,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,0,1,0,1,0,1,1,0,0,4,1,0,0,0,0,1,5,2,1,3,2,1,1,3,1,2,1,2,"Twitter, YouTube, Discord, Reddit",University,True
+23,18-24,Female,Female,Single,Retired,True,Between 4 and 5 hours,4.5,1,0,0,1,0,1,1,0,0,4,0,0,0,0,0,1,4,4,3,3,4,5,3,2,4,5,5,4,"Facebook, YouTube, Discord, Reddit",,True
+26,25-34,Male,Male,Single,Salaried Worker,True,Less than an Hour,0.5,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,2,1,1,3,2,1,1,1,1,2,3,4,Reddit,Company,True
+24,18-24,Male,Male,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,0,1,0,0,1,0,0,3,1,0,0,0,0,1,4,5,3,4,3,2,2,3,4,5,4,2,"Facebook, YouTube, Reddit",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,1,1,0,0,1,7,1,0,0,0,0,1,4,3,4,4,5,4,5,1,2,4,4,2,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",University,True
+18,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,0,1,0,0,1,0,0,3,1,0,0,1,1,1,4,3,3,3,5,5,4,3,1,5,5,5,"Facebook, YouTube, Reddit","University, Goverment, Private",True
+28,25-34,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,0,1,0,1,1,0,0,4,1,0,0,0,0,1,2,5,4,3,5,5,5,2,1,5,3,5,"Facebook, YouTube, Discord, Reddit",University,True
+22,18-24,Male,Male,Single,University Student,True,Between 2 and 3 hours,2.5,0,1,1,1,1,1,1,0,0,6,0,0,0,0,0,1,4,4,4,5,5,5,3,3,1,4,4,5,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",,True
+21,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,1,1,0,7,1,0,0,0,0,1,4,4,2,5,4,4,3,3,2,1,5,4,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",University,True
+21,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,0,0,1,1,1,1,1,0,0,5,1,0,0,0,0,1,5,5,3,5,4,5,2,3,2,4,5,2,"Instagram, YouTube, Snapchat, Discord, Reddit",University,True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,0,0,0,1,0,4,1,0,1,1,0,1,3,5,5,5,3,5,4,4,3,4,5,5,"Facebook, Instagram, YouTube, Pinterest","University, Company, Private",True
+17,<18,Male,Male,Single,School Student,True,Between 2 and 3 hours,2.5,1,1,1,1,0,0,1,0,0,5,0,1,0,0,0,1,4,4,3,4,5,4,3,2,4,2,4,2,"Facebook, Twitter, Instagram, YouTube, Reddit",School,True
+24,18-24,Non-binary,Non-binary & Other,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,0,0,0,1,0,0,1,0,0,2,0,0,0,0,0,1,4,3,2,3,5,2,3,2,2,4,3,1,"YouTube, Reddit",,True
+22,18-24,Female,Female,In a relationship,University Student,True,Between 1 and 2 hours,1.5,1,0,0,1,0,0,0,0,0,2,1,0,0,0,0,1,3,4,3,4,1,3,1,2,2,2,4,4,"Facebook, YouTube",University,True
+32,25-34,Female,Female,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,4,3,2,5,2,5,2,4,1,1,2,1,Reddit,Company,True
+22,18-24,Male,Male,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,0,1,0,0,0,0,0,2,1,0,0,0,0,1,5,4,2,2,1,3,1,3,5,3,2,2,"Facebook, YouTube",University,True
+20,18-24,Female,Female,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,1,0,0,1,0,5,1,0,0,0,0,1,4,5,4,5,5,5,4,2,4,5,5,4,"Facebook, Instagram, YouTube, Snapchat, Pinterest",University,True
+22,18-24,Male,Male,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,3,5,2,4,4,4,2,3,2,4,4,3,"Facebook, Instagram, YouTube, Snapchat",University,True
+28,25-34,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,0,1,0,0,0,0,0,2,1,0,0,0,0,1,4,5,4,5,5,5,2,3,2,4,5,2,"Facebook, YouTube",University,True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,1,0,0,0,0,5,1,0,0,0,0,1,4,3,3,4,5,4,1,3,2,4,2,1,"Facebook, Twitter, Instagram, YouTube, Snapchat",University,True
+17,<18,Unsure,Non-binary & Other,Single,School Student,True,Between 4 and 5 hours,4.5,0,1,1,1,1,1,1,0,1,7,0,1,0,0,0,1,4,4,3,4,2,4,3,2,2,3,3,5,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",School,True
+30,25-34,Female,Female,Single,Salaried Worker,True,Between 4 and 5 hours,4.5,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,4,5,3,2,4,4,3,3,3,4,4,4,Instagram,University,True
+22,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,5,5,1,3,2,5,2,1,1,3,1,5,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+14,<18,Male,Male,Single,School Student,True,Between 4 and 5 hours,4.5,0,0,1,1,0,1,0,0,0,3,0,1,0,0,0,1,5,5,2,4,2,3,1,3,1,1,3,5,"Instagram, YouTube, Discord",School,True
+20,18-24,Male,Male,Single,School Student,True,More than 5 hours,5.5,0,0,0,1,0,0,1,0,0,2,0,0,0,0,0,1,4,2,1,2,1,1,2,2,1,4,3,2,"YouTube, Reddit",,True
+22,18-24,Female,Female,Single,School Student,True,More than 5 hours,5.5,1,0,1,1,0,0,0,1,0,4,1,0,0,0,0,1,4,4,4,4,4,5,5,3,4,5,5,3,"Facebook, Instagram, YouTube, Pinterest",University,True
+16,<18,Male,Male,Single,School Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,1,0,0,1,6,0,1,0,0,0,1,4,5,2,5,3,4,3,1,4,2,1,3,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",School,True
+22,18-24,Female,Female,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,0,0,0,0,0,4,1,0,1,0,0,1,3,4,3,4,4,3,2,2,3,3,2,3,"Facebook, Twitter, Instagram, YouTube","University, Company",True
+22,18-24,Male,Male,In a relationship,University Student,True,Between 1 and 2 hours,1.5,1,1,1,1,1,1,1,1,0,8,1,0,0,0,0,1,5,4,3,4,4,2,1,1,1,5,3,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",University,True
+22,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,3,4,3,3,4,3,2,3,3,4,3,3,Instagram,University,True
+22,18-24,Male,Male,Single,University Student,True,Between 1 and 2 hours,1.5,1,1,1,1,1,0,0,1,0,6,1,0,0,0,0,1,4,3,4,3,5,5,3,3,4,3,5,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,0,0,1,0,5,1,0,0,0,0,1,2,3,4,3,3,3,3,4,4,1,3,3,"Facebook, Instagram, YouTube, Snapchat, Pinterest",University,True
+23,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,0,1,0,0,0,0,0,2,1,0,0,0,0,1,2,3,4,3,3,3,3,4,3,2,4,5,"Facebook, YouTube",University,True
+23,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,1,0,0,0,0,0,1,3,1,0,0,0,0,1,3,2,2,4,2,2,1,3,3,3,4,5,"Facebook, Instagram, TikTok",University,True
+48,45+,Female,Female,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,0,1,0,0,0,0,0,2,0,1,0,0,0,1,1,1,1,1,3,2,1,3,2,1,1,1,"Facebook, YouTube",School,True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,0,0,0,0,4,0,0,0,0,0,1,3,2,1,3,2,3,2,1,3,2,2,5,"Facebook, Instagram, YouTube, Snapchat",,True
+47,45+,Female,Female,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,1,1,0,0,0,1,0,4,0,0,0,0,1,1,4,3,3,3,2,2,2,3,3,3,3,3,"Facebook, Instagram, YouTube, Pinterest",Goverment,True
+48,45+,Male,Male,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,1,1,0,0,0,0,0,3,0,0,0,1,0,1,3,3,4,4,4,4,4,3,3,2,3,3,"Facebook, Instagram, YouTube",Private,True
+26,25-34,Female,Female,Single,Salaried Worker,True,More than 5 hours,5.5,1,0,1,1,0,0,0,1,0,4,0,0,0,1,0,1,4,5,4,4,5,3,5,4,3,4,2,3,"Facebook, Instagram, YouTube, Pinterest",Private,True
+47,45+,Male,Male,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,0,1,0,0,0,0,0,2,0,0,1,0,0,1,4,3,4,4,3,3,2,3,1,2,2,4,"Facebook, YouTube",Company,True
+47,45+,Male,Male,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,1,0,1,0,0,0,0,3,1,0,0,1,0,1,2,4,3,3,3,3,3,3,2,2,3,4,"Facebook, Instagram, Snapchat","University, Private",True
+27,25-34,Female,Female,Single,Salaried Worker,True,More than 5 hours,5.5,1,0,1,1,1,0,0,0,0,4,0,1,0,0,0,1,2,5,4,4,3,2,5,1,4,4,4,1,"Facebook, Instagram, YouTube, Snapchat",School,True
+34,25-34,Female,Female,Married,Salaried Worker,True,More than 5 hours,5.5,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,5,5,4,5,3,1,3,3,3,2,5,4,Facebook,School,True
+20,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,1,0,0,0,0,0,0,2,1,0,0,0,0,1,5,5,5,5,5,5,3,1,1,3,3,5,"Facebook, Instagram",University,True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,5,4,5,4,5,4,3,3,4,3,3,4,Facebook,University,True
+23,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,0,0,1,6,1,0,0,0,0,1,5,5,5,5,5,4,5,5,4,5,4,5,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",University,True
+20,18-24,Male,Male,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,4,5,3,4,3,5,2,3,3,4,4,5,"Facebook, Instagram, YouTube",University,True
+48,45+,Female,Female,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,1,0,0,0,0,0,0,2,0,0,0,1,0,1,2,4,1,3,2,1,1,3,2,1,1,1,"Facebook, Instagram",Private,True
+20,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,0,0,0,1,4,1,0,0,0,0,1,4,3,1,2,4,2,4,2,1,3,3,3,"Facebook, Instagram, YouTube, TikTok",University,True
+20,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,0,1,1,0,0,1,0,4,1,0,0,0,0,1,4,5,5,5,2,5,2,3,1,5,4,3,"Facebook, YouTube, Snapchat, Pinterest",University,True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,4,5,4,5,5,5,3,1,1,4,2,2,"Facebook, Instagram, YouTube, Snapchat",University,True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,5,5,3,3,2,3,4,5,4,1,4,1,Instagram,"University, N/A",True
+20,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,0,0,4,0,0,0,0,1,1,4,4,3,5,4,3,2,2,2,4,5,3,"Facebook, Instagram, YouTube, Snapchat",Goverment,True
+24,18-24,Male,Male,Single,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,1,1,0,0,0,6,1,0,0,0,0,1,1,1,3,3,4,4,3,3,2,4,4,4,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",University,True
+23,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,1,1,6,1,0,0,0,0,1,3,2,4,3,5,3,5,1,4,4,2,5,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",University,True
+20,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,0,0,0,0,3,0,0,0,0,0,1,5,2,1,2,1,1,5,1,1,4,5,3,"Facebook, Instagram, YouTube",,True
+16,<18,Male,Male,Single,School Student,True,Between 2 and 3 hours,2.5,0,0,1,1,1,0,0,1,0,4,0,1,0,0,0,1,3,1,2,3,3,2,2,4,1,3,3,2,"Instagram, YouTube, Snapchat, Pinterest",School,True
+50,45+,Female,Female,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,1,1,0,1,0,1,0,5,0,1,0,0,0,1,2,1,1,3,3,2,1,4,3,1,1,4,"Facebook, Instagram, YouTube, Discord, Pinterest",School,True
+47,45+,Male,Male,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,0,1,0,0,0,0,0,2,0,0,0,1,0,1,4,2,2,3,2,1,4,2,3,3,2,2,"Facebook, YouTube",Private,True
+24,18-24,Male,Male,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,1,1,1,1,0,0,0,0,0,4,0,0,0,1,0,1,3,3,2,3,4,3,2,4,2,3,1,4,"Facebook, Twitter, Instagram, YouTube",Private,True
+38,35-44,Female,Female,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,3,2,3,2,2,1,3,1,1,2,1,1,Facebook,School,True
+50,45+,Male,Male,Divorced,Salaried Worker,False,Between 1 and 2 hours,1.5,0,0,1,1,0,0,0,0,0,2,0,0,0,1,0,1,2,1,1,2,2,2,1,4,1,2,2,1,"Instagram, YouTube",Private,False
+49,45+,Male,Male,Married,Retired,True,Between 4 and 5 hours,4.5,1,1,1,1,0,0,0,1,0,5,0,0,0,1,0,1,5,5,3,3,4,3,3,3,3,4,4,5,"Facebook, Twitter, Instagram, YouTube, Pinterest",Private,True
+47,45+,Female,Female,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,0,1,0,0,0,1,0,3,0,0,0,0,1,1,3,3,3,3,3,2,1,3,1,1,1,4,"Facebook, YouTube, Pinterest",Goverment,True
+48,45+,Female,Female,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,1,1,1,1,0,0,0,1,0,5,0,0,1,1,0,1,3,3,1,3,1,1,1,1,1,1,1,1,"Facebook, Twitter, Instagram, YouTube, Pinterest","Company, Private",True
+51,45+,Male,Male,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,1,1,1,1,0,0,1,0,6,0,0,0,1,0,1,4,3,2,3,3,4,3,3,3,3,3,3,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",Private,True
+50,45+,Male,Male,Married,Salaried Worker,True,Between 3 and 4 hours,3.5,1,1,1,1,0,0,0,0,0,4,0,0,1,0,0,1,4,3,4,5,5,4,3,4,3,4,4,2,"Facebook, Twitter, Instagram, YouTube",Company,True
+47,45+,Female,Female,Married,Salaried Worker,True,Between 3 and 4 hours,3.5,1,1,1,1,0,0,0,1,0,5,0,0,0,1,0,1,3,2,2,2,2,2,3,4,1,1,2,1,"Facebook, Twitter, Instagram, YouTube, Pinterest",Private,True
+27,25-34,Female,Female,Married,Salaried Worker,True,Between 4 and 5 hours,4.5,1,0,1,1,0,0,0,0,0,3,0,0,0,1,0,1,4,5,2,5,5,5,5,2,3,3,5,4,"Facebook, Instagram, YouTube",Private,True
+40,35-44,Female,Female,Single,Salaried Worker,True,Between 1 and 2 hours,1.5,1,1,1,1,0,0,0,0,0,4,0,0,0,1,0,1,4,2,1,2,4,3,3,3,3,4,3,1,"Facebook, Twitter, Instagram, YouTube",Private,True
+46,45+,Male,Male,Divorced,Salaried Worker,True,Less than an Hour,0.5,1,1,1,1,1,0,0,0,0,5,0,0,0,1,0,1,3,1,1,1,2,1,1,3,5,2,2,2,"Facebook, Twitter, Instagram, YouTube, Snapchat",Private,True
+21,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,1,0,0,0,5,1,0,0,1,0,1,4,3,4,3,3,2,5,2,3,5,5,5,"Facebook, Instagram, YouTube, Snapchat, Discord","University, Private",True
+47,45+,Female,Female,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,4,4,3,3,2,2,4,2,3,3,3,3,Facebook,Private,True
+20,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,1,1,1,1,1,0,1,0,7,1,0,0,0,0,1,4,4,3,4,4,4,5,1,4,4,3,4,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",University,True
+47,45+,Female,Female,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,1,1,1,0,0,0,0,0,4,1,0,0,0,0,1,3,4,3,4,5,4,2,2,1,2,3,2,"Facebook, Twitter, Instagram, YouTube",University,True
+48,45+,Male,Male,Married,Salaried Worker,True,Between 3 and 4 hours,3.5,1,0,1,1,0,0,0,0,0,3,0,0,0,1,0,1,3,3,3,3,2,2,3,3,3,2,3,2,"Facebook, Instagram, YouTube",Private,True
+49,45+,Male,Male,Married,Salaried Worker,True,Between 4 and 5 hours,4.5,1,0,0,1,0,0,0,0,0,2,0,0,1,0,0,1,4,3,2,2,2,2,2,4,2,2,2,4,"Facebook, YouTube",Company,True
+21,18-24,Male,Male,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,0,1,0,1,0,0,0,3,1,0,0,1,0,1,3,2,1,1,2,2,2,4,3,2,2,2,"Facebook, YouTube, Discord","University, Private",True
+32,25-34,Female,Female,Married,Salaried Worker,True,Between 4 and 5 hours,4.5,1,0,1,1,0,1,0,1,0,5,0,1,0,0,0,1,5,2,4,3,2,1,1,5,1,1,2,5,"Facebook, Instagram, YouTube, Discord, Pinterest",School,True
+47,45+,Female,Female,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,0,1,1,1,0,0,0,0,0,3,1,0,0,0,0,1,3,1,2,3,2,2,3,3,2,2,2,3,"Twitter, Instagram, YouTube",University,True
+50,45+,Male,Male,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,1,0,1,0,0,0,0,0,3,0,0,0,1,0,1,1,1,2,3,2,2,1,1,3,3,2,2,"Facebook, Twitter, YouTube",Private,True
+48,45+,Male,Male,Divorced,Salaried Worker,True,Less than an Hour,0.5,1,1,1,1,0,0,0,0,0,4,0,0,0,1,0,1,5,1,1,2,4,2,1,3,3,4,2,5,"Facebook, Twitter, Instagram, YouTube",Private,True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,0,0,1,0,4,1,0,1,1,0,1,2,2,1,5,4,5,3,3,2,3,5,4,"Facebook, Instagram, YouTube, Pinterest","University, Company, Private",True
+47,45+,Male,Male,Married,Salaried Worker,True,Less than an Hour,0.5,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,2,5,3,4,2,3,1,2,4,4,Twitter,Company,True
+36,35-44,Female,Female,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,1,3,2,1,2,4,4,1,1,1,1,1,4,YouTube,School,True
+37,35-44,Female,Female,Married,Retired,True,Between 1 and 2 hours,1.5,1,0,1,1,0,0,0,0,0,3,0,0,0,1,0,1,3,1,2,2,1,3,1,2,2,4,2,4,"Facebook, Instagram, YouTube",Private,True
+19,18-24,Female,Female,In a relationship,School Student,True,Between 4 and 5 hours,4.5,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,5,4,4,3,5,4,2,5,4,4,5,5,Facebook,School,True
+30,25-34,Male,Male,In a relationship,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,1,1,0,0,0,0,0,3,0,0,1,0,0,1,4,2,1,2,2,1,4,2,2,2,2,5,"Facebook, Instagram, YouTube",Company,True
+48,45+,Male,Male,Married,Salaried Worker,True,Less than an Hour,0.5,1,1,1,1,1,1,1,1,1,9,0,0,0,1,0,1,3,1,1,1,1,1,5,3,2,1,5,2,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",Private,True
+48,45+,Female,Female,Married,Retired,True,More than 5 hours,5.5,1,0,1,1,0,0,0,1,1,5,0,0,0,0,0,1,4,5,5,5,4,5,3,3,2,3,5,4,"Facebook, Instagram, YouTube, Pinterest, TikTok",,True
+48,45+,Male,Male,Married,Salaried Worker,True,Between 3 and 4 hours,3.5,0,1,0,1,0,0,0,0,0,2,0,0,1,0,0,1,3,2,3,3,4,3,2,3,2,3,3,4,"Twitter, YouTube",Company,True
+47,45+,Male,Male,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,0,1,1,1,0,0,1,0,1,5,1,0,1,0,0,1,3,2,3,5,5,5,2,5,2,3,2,4,"Twitter, Instagram, YouTube, Reddit, TikTok","University, Company",True
+47,45+,Female,Female,Married,Salaried Worker,True,Less than an Hour,0.5,1,1,0,0,0,0,0,0,0,2,0,0,1,0,0,1,2,2,2,3,2,2,4,3,2,2,2,2,"Facebook, Twitter",Company,True
+48,45+,Male,Male,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,0,1,0,0,0,1,0,3,0,0,0,0,0,1,5,1,1,2,2,1,1,1,1,2,1,4,"Facebook, YouTube, Pinterest",,True
+21,18-24,Male,Male,Single,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,0,0,0,1,0,5,1,1,0,1,0,1,2,4,2,3,2,1,3,5,3,2,1,4,"Facebook, Twitter, Instagram, YouTube, Pinterest","School, University, Private",True
+48,45+,Male,Male,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,0,1,0,1,0,0,0,0,0,2,0,0,0,1,0,1,2,2,1,2,1,1,2,3,1,1,2,2,"Twitter, YouTube",Private,True
+21,18-24,Male,Male,In a relationship,University Student,True,Less than an Hour,0.5,1,1,1,1,1,1,0,0,0,6,1,0,0,0,0,1,2,3,2,4,3,3,2,3,1,2,2,1,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",University,True
+20,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,0,1,1,1,1,1,1,0,1,7,1,0,0,0,0,1,5,5,5,4,2,4,3,3,1,3,3,4,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",University,True
+20,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,0,1,0,0,0,0,0,2,1,0,0,0,0,1,4,5,4,4,5,5,5,2,2,3,4,4,"Facebook, YouTube",University,True
+20,18-24,Male,Male,Single,University Student,True,Between 1 and 2 hours,1.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,5,5,2,3,4,5,3,2,4,5,5,5,"Facebook, Instagram, YouTube",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 1 and 2 hours,1.5,1,0,1,1,1,0,0,0,0,4,0,0,0,0,0,1,4,4,4,4,4,2,4,3,4,3,3,1,"Facebook, Instagram, YouTube, Snapchat",,True
+20,18-24,Female,Female,In a relationship,University Student,True,Between 4 and 5 hours,4.5,0,0,1,1,0,0,0,1,0,3,1,0,0,0,0,1,4,3,5,5,4,4,5,4,3,4,4,5,"Instagram, YouTube, Pinterest",University,True
+47,45+,Male,Male,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,0,1,1,1,0,0,1,0,1,5,0,0,1,0,0,1,4,3,3,2,4,3,1,2,1,1,2,1,"Twitter, Instagram, YouTube, Reddit, TikTok",Company,True
+35,35-44,Female,Female,Divorced,Salaried Worker,True,Less than an Hour,0.5,1,0,0,1,0,0,0,0,0,2,0,1,0,0,0,1,3,2,1,1,1,1,1,3,4,1,1,1,"Facebook, YouTube",School,True
+23,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,5,3,3,4,3,5,1,3,3,4,3,5,Pinterest,University,True
+21,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,1,1,1,1,0,0,1,0,6,1,0,0,0,0,1,3,5,4,5,5,4,3,2,1,3,5,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",University,True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,0,0,0,1,0,4,1,0,0,0,0,1,3,2,5,2,4,1,3,2,4,4,2,1,"Facebook, Instagram, YouTube, Pinterest",University,True
+37,35-44,Female,Female,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,0,1,0,0,0,0,0,2,1,0,0,0,0,1,5,4,4,3,5,2,5,2,2,4,4,5,"Facebook, YouTube",University,True
+48,45+,Male,Male,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,1,1,1,0,0,0,0,0,4,0,0,1,0,0,1,4,2,2,3,2,2,2,3,3,3,3,4,"Facebook, Twitter, Instagram, YouTube",Company,True
+47,45+,Male,Male,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,0,1,0,0,0,0,1,3,0,0,0,0,1,1,3,1,1,2,4,2,3,3,2,1,2,3,"Facebook, YouTube, TikTok",Goverment,True
+25,25-34,Female,Female,Married,Salaried Worker,True,Between 4 and 5 hours,4.5,1,1,1,1,0,0,1,1,1,7,0,0,1,0,0,1,3,4,5,4,5,4,2,4,4,5,3,2,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest, TikTok",Company,True
+22,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,1,1,1,1,1,0,1,1,8,1,0,0,0,0,1,5,5,4,5,4,3,2,3,3,3,4,4,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",University,True
+45,45+,Male,Male,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,0,1,0,0,0,0,0,2,0,0,0,1,0,1,3,2,3,3,3,3,3,2,2,2,2,2,"Facebook, YouTube",Private,True
+47,45+,Male,Male,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,0,0,1,1,0,0,0,0,0,2,0,0,1,1,0,1,4,3,2,4,3,2,2,3,3,3,2,1,"Instagram, YouTube","Company, Private",True
+47,45+,Female,Female,Single,Salaried Worker,True,Between 4 and 5 hours,4.5,1,1,1,1,0,0,0,1,0,5,0,0,1,0,0,1,4,5,2,3,3,1,3,3,1,3,3,1,"Facebook, Twitter, Instagram, YouTube, Pinterest",Company,True
+24,18-24,Female,Female,Married,University Student,True,More than 5 hours,5.5,1,0,1,0,0,0,0,1,0,3,0,0,0,1,0,1,5,3,4,3,4,5,3,3,3,4,3,4,"Facebook, Instagram, Pinterest",Private,True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 2 and 3 hours,2.5,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,5,5,5,5,1,5,2,5,5,2,5,5,Instagram,University,True
+22,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,0,1,0,1,1,1,0,5,1,0,0,0,0,1,3,2,2,2,2,2,1,3,3,4,2,1,"Facebook, YouTube, Discord, Reddit, Pinterest",University,True
+19,18-24,Female,Female,Single,School Student,True,Between 2 and 3 hours,2.5,1,0,1,1,1,1,0,1,1,7,0,1,0,0,0,1,3,4,3,3,3,3,3,5,3,4,3,1,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",School,True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,3,3,2,4,2,4,3,2,1,4,4,4,"Facebook, Instagram, YouTube, Snapchat",University,True
+22,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,5,3,3,3,5,3,2,3,4,5,3,4,"Facebook, Instagram, YouTube, Snapchat",University,True
+20,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,1,0,0,1,6,0,0,0,0,0,1,4,5,4,4,5,4,1,3,4,4,5,5,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",,True
+42,35-44,Female,Female,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,1,1,0,1,0,1,0,5,0,1,0,0,0,1,3,1,1,1,1,1,1,3,1,1,3,1,"Facebook, Instagram, YouTube, Discord, Pinterest",School,True
+35,35-44,Female,Female,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,5,3,2,2,1,3,2,4,1,3,2,2,Facebook,School,True
+38,35-44,Male,Male,Married,Salaried Worker,True,Between 4 and 5 hours,4.5,1,1,0,1,0,1,1,0,0,5,1,0,0,0,0,1,3,3,3,2,3,2,3,4,3,2,2,2,"Facebook, Twitter, YouTube, Discord, Reddit",University,True
+17,<18,Male,Male,Single,School Student,True,Less than an Hour,0.5,1,0,1,1,0,0,0,0,0,3,0,1,0,0,0,1,2,2,2,2,2,1,1,2,1,1,1,2,"Facebook, Instagram, YouTube",School,True
+32,25-34,Male,Male,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,0,1,0,1,1,0,0,4,0,0,1,1,0,1,3,1,3,2,2,1,1,3,1,1,2,1,"Facebook, YouTube, Discord, Reddit","Company, Private",True
+21,18-24,Female,Female,Single,University Student,True,Between 1 and 2 hours,1.5,1,1,1,1,1,1,0,0,0,6,1,0,0,0,0,1,3,3,2,5,4,5,4,2,2,2,3,2,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",University,True
+22,18-24,Male,Male,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,1,1,0,0,6,1,0,0,1,0,1,4,2,2,2,4,3,2,4,2,3,2,5,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit","University, Private",True
+27,25-34,Female,Female,Married,University Student,True,More than 5 hours,5.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,5,5,3,3,3,3,1,3,1,3,3,4,"Facebook, Instagram, YouTube",University,True
+21,18-24,Male,Male,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,1,1,0,1,6,1,0,0,0,0,1,4,5,3,5,5,5,5,2,4,3,5,3,"Facebook, Instagram, YouTube, Discord, Reddit, TikTok",University,True
+27,25-34,Male,Male,Married,Salaried Worker,True,More than 5 hours,5.5,1,0,0,0,0,1,1,0,0,3,1,0,1,0,0,1,5,5,5,5,5,5,1,3,1,5,5,5,"Facebook, Discord, Reddit","University, Company",True
+20,18-24,Male,Male,Single,School Student,True,Between 2 and 3 hours,2.5,0,0,1,0,0,1,1,1,1,5,0,1,0,0,0,1,3,2,3,2,3,2,3,2,3,2,1,4,"Instagram, Discord, Reddit, Pinterest, TikTok",School,True
+27,25-34,Female,Female,Married,Salaried Worker,True,Between 3 and 4 hours,3.5,1,0,1,1,0,0,0,0,0,3,0,0,0,1,0,1,4,4,4,5,4,3,2,2,1,1,3,2,"Facebook, Instagram, YouTube",Private,True
+24,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,1,0,0,0,4,1,0,1,0,0,1,5,5,5,5,1,5,5,4,1,5,5,4,"Facebook, Instagram, YouTube, Discord","University, Company",True
+26,25-34,Female,Female,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,1,1,1,0,0,1,0,5,0,0,0,1,0,1,3,2,1,1,1,1,1,1,1,1,1,1,"Facebook, Instagram, YouTube, Snapchat, Pinterest",Private,True
+20,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,0,1,1,1,1,1,1,1,1,8,1,0,0,0,0,1,2,1,1,2,5,3,5,4,3,4,3,4,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",University,True
+31,25-34,Male,Male,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,1,1,0,1,0,0,0,4,0,1,0,0,0,1,3,3,3,3,4,3,4,4,4,3,3,2,"Facebook, Instagram, YouTube, Discord",School,True
+21,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,0,0,0,1,0,1,1,0,0,3,1,0,0,0,0,1,5,1,1,1,1,1,1,3,1,1,1,1,"YouTube, Discord, Reddit",University,True
+34,25-34,Male,Male,Married,Salaried Worker,True,More than 5 hours,5.5,1,0,0,1,0,0,0,0,1,3,0,0,0,1,0,1,5,3,2,3,3,4,4,4,5,5,5,5,"Facebook, YouTube, TikTok",Private,True
+22,18-24,Male,Male,Single,University Student,True,Less than an Hour,0.5,1,0,0,1,1,0,0,0,0,3,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,"Facebook, YouTube, Snapchat",University,True
+20,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,3,3,1,3,5,3,2,3,5,4,5,1,Instagram,,True
+23,18-24,Male,Male,In a relationship,University Student,True,Between 4 and 5 hours,4.5,1,1,1,1,0,1,1,0,0,6,1,0,1,0,0,1,4,2,1,1,3,1,1,3,1,3,2,1,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit","University, Company",True
+48,45+,Male,Male,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,0,1,0,0,0,0,0,2,0,0,0,1,0,1,1,1,1,1,1,1,5,5,3,1,1,1,"Facebook, YouTube",Private,True
+37,35-44,Male,Male,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,0,1,0,0,0,0,0,2,0,0,0,1,0,1,4,4,1,3,4,4,4,4,3,2,3,2,"Facebook, YouTube",Private,True
+22,18-24,Male,Male,Single,University Student,True,Between 1 and 2 hours,1.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,3,3,2,3,4,4,4,4,3,5,4,4,"Facebook, Instagram, YouTube, Snapchat",University,True
+50,45+,Male,Male,Single,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,3,2,3,3,3,5,4,5,5,2,4,3,Facebook,,True
+21,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,1,1,1,1,0,0,0,0,5,1,0,0,0,0,1,4,4,4,5,5,5,4,2,3,3,4,4,"Facebook, Twitter, Instagram, YouTube, Snapchat",University,True
+23,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,1,1,0,1,0,7,1,0,0,0,1,1,4,4,1,3,2,2,1,2,1,2,4,1,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest","University, Goverment",True
+21,18-24,Female,Female,Single,University Student,True,Between 1 and 2 hours,1.5,1,0,0,1,0,0,0,0,0,2,1,0,0,0,0,1,4,3,1,3,4,3,5,2,3,3,4,3,"Facebook, YouTube",University,True
+22,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,1,1,0,1,0,7,1,0,0,0,0,1,3,3,3,3,3,2,2,3,3,3,3,3,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",University,True
+22,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,3,1,4,4,3,4,3,4,3,4,4,3,Facebook,University,True
+22,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,0,1,5,1,0,0,0,0,1,2,5,3,3,3,4,5,3,3,2,4,3,"Facebook, Instagram, YouTube, Snapchat, TikTok",University,True
+19,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,1,0,1,0,6,1,0,0,0,0,1,5,4,5,3,5,4,5,1,5,4,4,3,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",University,True
+23,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,5,5,3,5,3,5,1,3,2,2,2,5,"Facebook, Instagram, YouTube",University,True
+46,45+,Male,Male,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,0,1,0,0,0,0,0,2,0,0,1,1,0,1,2,1,1,1,1,1,1,2,1,1,3,4,"Facebook, YouTube","Company, Private",True
+21,18-24,Male,Male,In a relationship,University Student,True,More than 5 hours,5.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,4,5,3,4,4,4,3,3,4,4,4,5,"Facebook, Instagram, YouTube",University,True
+24,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,0,1,1,0,1,0,0,0,4,1,0,0,0,0,1,2,3,1,2,4,3,4,4,3,4,1,1,"Facebook, Instagram, YouTube, Discord",University,True
+20,18-24,Female,Female,Single,University Student,True,Less than an Hour,0.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,3,1,1,1,2,2,5,1,2,1,3,1,"Facebook, Instagram, YouTube",University,True
+25,25-34,Male,Male,Single,University Student,True,Between 1 and 2 hours,1.5,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,1,5,5,1,1,2,3,4,5,3,5,2,5,YouTube,University,True
+21,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,0,1,0,1,0,1,0,4,1,0,1,0,1,1,2,1,1,2,2,1,1,1,1,1,1,1,"Facebook, YouTube, Discord, Pinterest","University, Company, Goverment",True
+23,18-24,Male,Male,In a relationship,University Student,True,More than 5 hours,5.5,1,1,1,1,0,1,1,0,1,7,1,0,0,0,0,1,4,4,3,5,4,4,4,2,1,4,4,3,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, TikTok",University,True
+22,18-24,Female,Female,In a relationship,Salaried Worker,True,More than 5 hours,5.5,0,0,1,1,0,1,1,0,1,5,0,0,1,0,0,1,5,4,4,4,4,3,4,4,4,4,5,1,"Instagram, YouTube, Discord, Reddit, TikTok",Company,True
+36,35-44,Male,Male,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,1,1,0,0,0,1,0,4,1,0,0,0,0,1,2,1,1,2,3,1,3,3,1,2,1,1,"Facebook, Instagram, YouTube, Pinterest",University,True
+22,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,1,0,0,1,1,6,1,0,0,0,0,1,5,5,3,5,5,2,3,1,2,5,3,5,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",University,True
+69,45+,Trans,Non-binary & Other,Divorced,Salaried Worker,True,More than 5 hours,5.5,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,5,5,5,5,5,5,5,5,5,5,5,5,TikTok,,True
+25,25-34,Female,Female,Single,Salaried Worker,True,Between 4 and 5 hours,4.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,3,4,2,5,5,1,5,1,5,4,5,5,"Facebook, Instagram, YouTube",University,True
+22,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,1,1,1,1,0,0,0,1,6,1,0,0,0,0,1,4,2,1,5,4,3,5,1,4,4,4,2,"Facebook, Twitter, Instagram, YouTube, Snapchat, TikTok",University,True
+23,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,1,0,0,1,6,1,0,0,0,0,1,3,4,2,5,5,5,5,4,4,2,3,4,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok","University, N/A",True
+23,18-24,Male,Male,Single,University Student,True,Less than an Hour,0.5,1,0,1,0,0,0,0,0,0,2,1,0,0,0,0,1,3,2,1,3,4,3,3,3,2,3,2,5,"Facebook, Instagram",University,True
+19,18-24,Female,Female,Single,School Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,1,0,0,0,4,1,0,0,0,0,1,5,3,2,3,5,5,2,3,3,3,5,5,"Facebook, Instagram, YouTube, Discord",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 1 and 2 hours,1.5,1,0,1,1,1,1,1,0,0,6,1,1,0,1,0,1,3,5,2,4,2,2,1,4,2,3,2,3,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit","School, University, Private",True
+27,25-34,Female,Female,In a relationship,Salaried Worker,True,Between 4 and 5 hours,4.5,1,0,1,1,1,0,0,0,0,4,0,0,0,1,0,1,5,5,3,4,4,4,4,2,3,4,4,2,"Facebook, Instagram, YouTube, Snapchat",Private,True
+25,25-34,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,0,1,0,1,0,0,0,3,1,0,0,0,0,1,4,3,1,2,4,3,4,2,2,4,2,1,"Facebook, YouTube, Discord",University,True
+20,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,4,2,1,3,4,1,1,5,1,2,2,3,"Facebook, Instagram, YouTube, Snapchat",University,True
+34,25-34,Female,Female,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,2,5,1,1,1,5,2,3,5,1,2,1,Facebook,School,True
+23,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,0,1,0,6,1,0,0,0,0,1,5,5,3,3,5,3,3,4,3,4,5,4,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",University,True
+34,25-34,Female,Female,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,2,2,1,1,1,1,2,1,1,1,1,1,Facebook,School,True
+26,25-34,Female,Female,Single,Salaried Worker,True,Between 4 and 5 hours,4.5,1,0,1,1,0,1,0,1,1,6,0,0,0,0,0,1,5,5,3,5,5,5,3,3,3,5,4,4,"Facebook, Instagram, YouTube, Discord, Pinterest, TikTok",,True
+25,25-34,Male,Male,Single,University Student,True,Between 4 and 5 hours,4.5,1,1,1,1,1,1,0,1,1,8,1,0,0,0,0,1,4,5,2,5,1,5,2,3,4,5,1,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",University,True
+22,18-24,Female,Female,Married,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,0,0,0,1,0,4,1,0,0,0,0,1,5,4,2,3,3,2,1,3,2,2,3,3,"Facebook, Instagram, YouTube, Pinterest",University,True
+20,18-24,Male,Male,Single,University Student,True,Less than an Hour,0.5,1,1,1,1,1,1,1,0,0,7,1,0,0,0,0,1,4,2,1,3,5,2,1,4,2,2,4,2,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",University,True
+23,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,4,5,3,4,5,5,5,1,3,3,4,5,"Facebook, Instagram, YouTube, Snapchat",University,True
+91,45+,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,2,5,4,4,5,5,5,1,5,5,5,5,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+22,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,4,1,2,1,1,1,1,2,1,1,2,3,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+23,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,0,0,0,0,1,4,1,0,0,0,0,1,3,3,2,3,3,4,3,3,4,4,3,2,"Facebook, Instagram, YouTube, TikTok","University, N/A",True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,0,1,0,0,1,0,0,0,3,1,0,1,0,0,1,2,3,4,2,3,4,2,4,2,3,1,4,"Facebook, Instagram, Discord","University, Company",True
+36,35-44,Female,Female,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,0,1,1,0,0,0,0,3,0,0,0,0,0,1,4,1,1,2,2,1,1,3,2,2,3,3,"Facebook, YouTube, Snapchat",,True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,1,1,0,0,1,6,1,0,0,0,0,1,3,3,2,3,5,4,3,3,3,5,5,4,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",University,True
+22,18-24,Female,Female,Single,University Student,True,Between 1 and 2 hours,1.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,2,2,2,2,2,3,4,3,3,3,2,2,"Facebook, Instagram, YouTube",University,True
+22,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,0,1,1,1,1,8,1,0,0,0,0,1,4,4,3,4,2,4,4,3,4,3,4,3,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, Pinterest, TikTok",University,True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,5,2,5,4,4,4,4,3,2,2,3,2,"Facebook, Instagram, YouTube, Snapchat",University,True
+20,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,1,0,0,0,4,1,0,0,0,0,1,3,3,3,3,4,3,4,3,3,3,3,2,"Facebook, Instagram, YouTube, Discord",University,True
+26,25-34,Female,Female,In a relationship,Salaried Worker,True,More than 5 hours,5.5,1,1,1,1,0,0,0,0,0,4,0,0,0,1,0,1,4,4,1,3,3,2,2,4,1,2,2,4,"Facebook, Twitter, Instagram, YouTube",Private,True
+21,18-24,Male,Male,Single,University Student,True,Between 2 and 3 hours,2.5,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,1,3,3,2,5,5,4,2,3,2,4,2,4,YouTube,University,True
+20,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,1,1,6,1,0,0,1,0,1,4,5,3,5,5,5,2,3,1,3,4,5,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok","University, Private",True
+21,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,1,0,1,0,1,0,1,0,5,1,1,0,1,0,1,3,2,1,2,3,1,1,3,1,3,3,2,"Facebook, Twitter, YouTube, Discord, Pinterest","School, University, Private",True
+19,18-24,Female,Female,Single,School Student,True,More than 5 hours,5.5,1,1,1,1,1,1,1,1,1,9,0,1,0,0,0,1,3,2,1,5,2,3,1,3,1,2,1,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",School,True
+20,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,0,1,1,7,1,0,0,0,0,1,4,5,5,5,5,5,5,1,4,5,5,5,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",University,True
+22,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,1,1,1,1,1,9,1,0,0,1,0,1,5,4,3,4,4,3,2,3,4,3,3,4,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok","University, Private",True
+23,18-24,Male,Male,Single,University Student,True,Between 1 and 2 hours,1.5,0,0,0,1,0,1,1,0,0,3,1,1,0,0,0,1,2,2,1,5,5,5,1,3,1,5,1,5,"YouTube, Discord, Reddit","School, University",True
+21,18-24,Male,Male,Single,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,0,1,1,0,0,6,1,0,0,0,0,1,4,4,4,5,5,4,4,2,3,3,4,3,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",University,True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,1,0,1,1,7,1,1,0,0,0,1,5,4,2,5,5,4,4,3,3,5,5,5,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok","School, University",True
+22,18-24,Male,Male,In a relationship,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,5,5,3,5,5,5,5,5,5,5,5,5,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+26,25-34,Male,Male,Single,Salaried Worker,True,More than 5 hours,5.5,1,0,1,1,0,1,0,0,0,4,0,0,1,0,0,1,5,5,5,5,5,5,5,5,1,5,5,5,"Facebook, Instagram, YouTube, Discord",Company,True
+22,18-24,Female,Female,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,0,1,0,0,0,4,1,0,0,0,0,1,4,4,2,3,5,3,1,3,4,5,2,2,"Facebook, Instagram, YouTube, Discord",University,True
+17,<18,Male,Male,Single,School Student,True,Between 2 and 3 hours,2.5,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,3,4,3,3,3,3,5,3,4,5,3,4,Discord,School,True
+23,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,0,1,0,1,1,6,1,0,0,1,0,1,4,3,3,4,5,4,5,4,4,3,4,5,"Facebook, Instagram, YouTube, Discord, Pinterest, TikTok","University, Private",True
+21,18-24,Male,Male,Single,School Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,1,1,1,0,6,0,1,1,0,0,1,2,4,2,4,5,4,5,4,4,4,3,3,"Facebook, Instagram, YouTube, Discord, Reddit, Pinterest","School, Company",True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,1,1,1,1,1,1,2,2,1,2,1,2,"Facebook, Instagram, YouTube, Snapchat",University,True
+20,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,1,1,0,0,1,7,1,0,0,0,0,1,4,5,3,2,5,3,4,2,1,5,4,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",University,True
+24,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,1,1,1,0,0,0,0,0,4,1,0,0,0,0,1,4,4,3,4,4,4,3,3,3,4,4,4,"Facebook, Twitter, Instagram, YouTube",University,True
+22,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,0,0,0,0,4,0,0,0,1,0,1,4,4,2,5,4,5,3,2,2,3,4,4,"Facebook, Instagram, YouTube, Snapchat",Private,True
+24,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,0,1,0,0,0,5,1,0,0,0,0,1,4,3,2,3,2,3,2,1,3,2,3,2,"Facebook, Twitter, Instagram, YouTube, Discord",University,True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,1,0,5,1,0,0,0,0,1,3,4,4,5,5,4,5,2,4,5,4,4,"Facebook, Instagram, YouTube, Snapchat, Pinterest",University,True
+26,25-34,Male,Male,In a relationship,University Student,True,Between 4 and 5 hours,4.5,1,1,1,1,1,1,0,1,0,7,1,0,0,1,0,1,3,3,2,2,4,2,2,3,4,4,2,2,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest","University, Private",True
+24,18-24,Female,Female,In a relationship,Salaried Worker,True,Between 3 and 4 hours,3.5,1,0,1,1,0,1,0,1,0,5,0,0,0,1,0,1,2,1,1,2,4,2,1,1,3,3,2,4,"Facebook, Instagram, YouTube, Discord, Pinterest",Private,True
+22,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,0,1,0,0,0,0,0,2,1,0,0,0,0,1,3,4,1,2,2,3,3,3,3,3,4,4,"Facebook, YouTube",University,True
+25,25-34,Female,Female,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,3,2,1,2,4,3,3,3,2,4,2,3,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,1,1,1,1,8,1,0,0,0,0,1,4,5,3,4,4,5,2,3,3,4,5,4,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",University,True
+20,18-24,Female,Female,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,1,0,0,0,1,5,1,0,0,0,0,1,4,4,4,4,4,4,5,5,4,5,5,5,"Facebook, Instagram, YouTube, Snapchat, TikTok",University,True
+22,18-24,Female,Female,Single,University Student,True,Between 1 and 2 hours,1.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,3,3,1,3,1,1,1,3,5,1,1,1,"Facebook, Instagram, YouTube",University,True
+25,25-34,Female,Female,In a relationship,Salaried Worker,True,Between 2 and 3 hours,2.5,1,1,1,1,1,0,0,1,0,6,0,0,1,0,0,1,2,1,3,2,4,4,3,3,1,2,1,1,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",Company,True
+17,<18,Male,Male,Single,School Student,True,Between 4 and 5 hours,4.5,1,0,0,0,0,1,0,0,0,2,0,1,0,0,0,1,2,1,4,2,5,2,4,3,1,4,2,2,"Facebook, Discord",School,True
+22,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,0,0,0,0,0,4,1,0,0,0,0,1,4,2,3,3,5,4,4,3,3,4,3,5,"Facebook, Twitter, Instagram, YouTube",University,True
+26,25-34,Male,Male,Single,University Student,True,Between 1 and 2 hours,1.5,1,1,1,1,0,0,1,0,0,5,1,0,0,0,0,1,3,4,2,4,4,4,2,2,1,3,3,2,"Facebook, Twitter, Instagram, YouTube, Reddit",University,True
+22,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,2,3,2,3,3,3,4,3,3,5,3,3,Facebook,"University, Goverment",True
+23,18-24,Male,Male,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,1,0,0,1,0,5,1,0,1,1,0,1,3,4,5,3,5,3,3,3,3,5,1,4,"Facebook, Instagram, YouTube, Snapchat, Pinterest","University, Company, Private",True
+25,25-34,Male,Male,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,1,1,1,0,0,0,0,4,0,0,1,1,0,1,4,2,2,3,5,4,1,1,2,5,5,5,"Facebook, Instagram, YouTube, Snapchat","Company, Private",True
+21,18-24,Male,Male,Single,School Student,True,Between 2 and 3 hours,2.5,0,0,1,1,1,1,1,0,0,5,1,0,1,0,0,1,4,5,3,5,2,5,2,3,4,4,5,2,"Instagram, YouTube, Snapchat, Discord, Reddit","University, Company",True
+30,25-34,Female,Female,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,0,0,0,0,0,0,1,2,0,0,0,1,0,1,4,5,4,3,3,5,4,3,1,4,4,5,"Facebook, TikTok",Private,True
+23,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,2,4,1,3,4,3,4,2,2,3,3,2,"Facebook, Instagram, YouTube",University,True
+22,18-24,Male,Male,In a relationship,Salaried Worker,True,Between 4 and 5 hours,4.5,1,1,1,1,1,1,1,0,1,8,1,0,1,0,0,1,4,5,4,5,5,4,3,3,3,3,4,2,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok","University, Company",True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,5,5,5,4,4,3,5,2,2,5,4,3,"Facebook, Instagram, YouTube",University,True
+20,18-24,Female,Female,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,0,1,0,0,0,0,0,2,1,0,0,0,0,1,5,3,2,4,2,2,1,3,5,1,4,1,"Facebook, YouTube",University,True
+18,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,0,1,0,6,1,0,0,0,0,1,3,2,2,2,4,2,1,3,3,2,3,4,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",University,True
+20,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,0,1,1,1,0,0,0,0,0,3,1,0,0,0,0,1,3,3,2,2,4,2,2,3,2,2,3,1,"Twitter, Instagram, YouTube",University,True
+15,<18,Female,Female,Single,School Student,True,Between 3 and 4 hours,3.5,0,0,1,1,0,1,0,1,0,4,0,1,0,0,0,1,4,3,1,3,5,3,3,3,1,5,4,5,"Instagram, YouTube, Discord, Pinterest",School,True
+22,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,1,1,1,1,0,8,1,0,0,0,0,1,5,3,2,3,5,5,1,3,1,3,4,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",University,True
+17,<18,Female,Female,Single,School Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,1,1,6,0,1,0,0,0,1,2,5,4,5,3,5,2,2,3,2,4,2,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",School,True
+21,18-24,Male,Male,Single,University Student,True,Between 1 and 2 hours,1.5,1,0,1,0,0,0,0,0,0,2,1,0,0,0,0,1,2,3,1,4,5,4,3,3,1,5,5,5,"Facebook, Instagram",University,True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,1,0,0,0,1,6,1,0,0,0,0,1,5,1,4,1,4,4,3,4,2,4,5,4,"Facebook, Twitter, Instagram, YouTube, Snapchat, TikTok",University,True
+23,18-24,Female,Female,Married,University Student,True,More than 5 hours,5.5,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,4,3,3,4,4,5,4,4,3,3,3,4,Facebook,University,True
+24,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,1,1,1,1,0,8,1,0,0,0,0,1,2,1,1,1,4,1,1,3,1,3,1,3,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",University,True
+21,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,0,0,4,1,0,0,1,0,1,4,5,4,5,3,5,3,3,2,5,5,4,"Facebook, Instagram, YouTube, Snapchat","University, Private",True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,1,1,6,1,0,0,0,0,1,5,5,5,5,5,5,5,1,4,5,5,5,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",University,True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,0,1,1,1,0,0,0,4,1,0,0,0,0,1,5,5,5,5,5,5,5,5,5,5,5,5,"Facebook, YouTube, Snapchat, Discord",University,True
+21,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,1,0,0,0,1,6,1,0,0,1,0,1,3,4,5,4,5,4,5,5,3,5,4,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, TikTok","University, Private",True
+21,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,0,1,0,6,1,0,0,0,0,1,3,3,2,2,4,4,4,3,3,4,2,4,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",University,True
+18,18-24,Male,Male,Single,School Student,True,More than 5 hours,5.5,1,1,1,1,0,1,1,1,0,7,0,0,0,0,0,1,5,4,1,2,4,3,1,3,3,3,3,5,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, Pinterest",,True
+19,18-24,Male,Male,Single,University Student,True,Less than an Hour,0.5,1,1,1,1,1,1,0,0,0,6,1,0,0,0,0,1,3,2,1,2,4,2,2,3,4,2,2,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",University,True
+22,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,1,1,1,0,0,7,1,0,1,0,0,1,5,4,2,4,5,5,1,1,1,5,1,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit","University, Company",True
+21,18-24,Non-binary,Non-binary & Other,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,1,1,1,7,1,0,0,0,0,1,4,2,3,5,5,4,4,3,5,5,5,1,"Facebook, Instagram, YouTube, Snapchat, Reddit, Pinterest, TikTok",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,1,0,0,1,6,0,0,0,0,0,1,5,5,4,5,5,4,5,5,3,5,3,5,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",,True
+22,18-24,Male,Male,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,0,1,0,1,0,5,1,0,0,0,0,1,4,5,4,4,5,5,2,2,5,5,5,4,"Facebook, Instagram, YouTube, Discord, Pinterest",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,1,0,1,0,0,1,1,5,1,0,1,0,0,1,4,4,1,3,2,2,2,2,2,4,3,2,"Facebook, Instagram, Snapchat, Pinterest, TikTok","University, Company",True
+23,18-24,Male,Male,Married,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,1,1,1,1,1,9,1,0,0,0,0,1,5,4,3,5,4,5,3,2,2,4,4,4,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",University,True
+19,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,1,1,1,1,1,9,1,0,0,0,0,1,4,2,2,2,3,1,2,5,1,1,3,4,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",University,True
+26,25-34,Male,Male,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,1,1,1,1,1,1,1,0,0,7,0,1,1,0,0,1,4,3,2,4,3,3,4,3,1,4,2,2,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit","School, Company",True
+27,25-34,Male,Male,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,1,1,1,1,0,0,1,1,0,6,0,0,1,0,0,1,5,5,2,2,1,1,2,4,1,3,2,3,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest",Company,True
+25,25-34,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,0,0,0,1,1,5,1,0,1,1,0,1,5,5,4,4,5,1,2,2,3,5,2,4,"Facebook, Instagram, YouTube, Pinterest, TikTok","University, Company, Private",True
+20,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,0,1,0,0,0,4,1,0,0,0,0,1,3,3,3,3,3,3,3,3,3,3,3,3,"Facebook, Instagram, YouTube, Discord",University,True
+20,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,1,0,0,0,0,5,1,0,0,0,0,1,4,2,4,3,5,4,1,3,2,4,4,2,"Facebook, Twitter, Instagram, YouTube, Snapchat",University,True
+22,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,1,1,1,1,0,8,1,0,0,0,0,1,4,4,1,3,3,1,1,1,1,1,2,2,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",University,True
+18,18-24,Female,Female,Single,School Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,0,0,0,0,3,0,0,0,1,0,1,5,5,2,5,4,5,5,2,4,4,5,5,"Facebook, Instagram, YouTube",Private,True
+22,18-24,Male,Male,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,1,1,1,0,0,6,1,0,1,0,0,1,4,3,2,3,4,3,2,4,1,3,1,3,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit","University, Company",True
+20,18-24,Male,Male,Single,Salaried Worker,True,Between 1 and 2 hours,1.5,1,1,1,0,1,0,1,0,0,5,0,0,1,0,0,1,3,3,2,3,5,3,1,3,4,5,3,2,"Facebook, Twitter, Instagram, Snapchat, Reddit",Company,True
+24,18-24,Male,Male,Single,Salaried Worker,True,More than 5 hours,5.5,0,0,0,1,0,1,0,0,0,2,0,0,1,0,0,1,5,3,5,5,4,5,1,3,1,3,5,1,"YouTube, Discord",Company,True
+21,18-24,Male,Male,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,3,4,3,3,5,5,4,4,4,3,4,3,"Facebook, Instagram, YouTube",University,True
+29,25-34,Female,Female,Single,Salaried Worker,True,Between 3 and 4 hours,3.5,1,0,1,0,0,0,0,0,0,2,0,0,0,1,0,1,5,3,1,3,5,3,2,2,1,5,5,5,"Facebook, Instagram",Private,True
+21,18-24,Male,Male,Single,University Student,True,Between 1 and 2 hours,1.5,1,0,1,1,1,1,0,0,1,6,1,0,1,1,0,1,4,4,3,3,5,2,4,2,2,2,4,5,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok","University, Company, Private",True
+19,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,1,1,1,8,1,1,0,1,0,1,3,5,4,3,5,4,1,5,1,5,5,5,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok","School, University, Private",True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,5,4,3,4,4,4,2,3,1,5,4,2,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+43,35-44,Male,Male,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,0,1,0,0,0,0,0,2,0,0,0,0,1,1,2,1,1,1,1,1,1,3,3,1,1,1,"Facebook, YouTube",Goverment,True
+22,18-24,Female,Female,Married,University Student,True,Between 4 and 5 hours,4.5,1,1,1,1,1,1,1,1,1,9,1,0,0,0,0,1,5,5,3,4,4,4,4,1,1,4,2,1,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",University,True
+24,18-24,Male,Male,In a relationship,University Student,True,Between 4 and 5 hours,4.5,1,1,1,1,1,1,1,0,0,7,1,0,1,0,0,1,4,5,3,5,5,5,1,3,1,3,2,1,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit","University, Company",True
+18,18-24,Female,Female,Single,School Student,True,More than 5 hours,5.5,1,0,0,1,0,0,0,0,0,2,0,1,0,0,0,1,5,5,3,3,5,4,1,3,1,5,4,4,"Facebook, YouTube",School,True
+19,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,4,3,1,3,4,4,2,3,1,4,3,5,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+37,35-44,Female,Female,In a relationship,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,0,1,0,0,0,0,0,2,0,0,0,1,0,1,2,2,1,3,3,2,2,3,1,3,3,4,"Facebook, YouTube",Private,True
+24,18-24,Male,Male,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,0,1,1,0,0,5,1,0,0,0,0,1,4,4,2,4,4,5,4,2,3,3,4,5,"Facebook, Instagram, YouTube, Discord, Reddit",University,True
+29,25-34,Female,Female,Single,Salaried Worker,True,Between 1 and 2 hours,1.5,1,1,1,1,0,0,1,1,0,6,1,0,0,0,0,1,2,2,1,4,5,4,4,2,1,5,2,4,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest",University,True
+19,18-24,Male,Male,Single,School Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,1,1,0,1,7,0,0,0,1,0,1,3,3,2,2,3,2,2,1,3,2,2,2,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",Private,True
+35,35-44,Male,Male,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,1,1,0,1,0,0,0,4,0,0,1,0,0,1,2,3,2,2,4,4,2,2,4,3,2,5,"Facebook, Instagram, YouTube, Discord",Company,True
+22,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,0,1,0,0,0,1,1,0,0,3,1,0,0,0,0,1,4,5,4,5,5,4,3,3,1,4,4,2,"Twitter, Discord, Reddit",University,True
+23,18-24,Male,Male,Single,University Student,True,Between 1 and 2 hours,1.5,1,1,1,1,1,1,0,1,0,7,1,0,1,0,0,1,3,2,2,3,2,2,2,4,2,3,2,3,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest","University, Company",True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,0,1,1,0,0,0,0,0,1,3,1,0,0,0,0,1,5,5,5,4,4,4,2,3,2,3,4,1,"Twitter, Instagram, TikTok",University,True
+25,25-34,Male,Male,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,1,1,1,1,0,0,0,5,0,0,0,1,0,1,4,4,1,5,5,3,5,2,2,4,3,5,"Facebook, Instagram, YouTube, Snapchat, Discord",Private,True
+19,18-24,Male,Male,Single,School Student,True,Between 4 and 5 hours,4.5,1,0,1,1,0,0,0,0,1,4,0,1,0,0,0,1,3,3,4,3,3,3,4,3,3,3,3,2,"Facebook, Instagram, YouTube, TikTok",School,True
+29,25-34,Female,Female,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,1,1,0,0,0,1,0,4,0,0,0,1,0,1,4,4,1,3,3,3,2,3,1,2,2,4,"Facebook, Instagram, YouTube, Pinterest",Private,True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 4 and 5 hours,4.5,1,1,1,1,1,0,0,1,0,6,1,0,0,1,0,1,4,5,3,3,3,3,5,1,4,4,3,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest","University, Private",True
+21,18-24,Male,Male,In a relationship,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,4,2,2,2,1,1,1,3,1,2,2,2,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+22,18-24,Female,Female,Married,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,1,1,0,0,0,5,0,0,0,0,0,1,3,2,1,1,1,3,1,1,2,1,2,2,"Facebook, Instagram, YouTube, Snapchat, Discord",,True
+23,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,1,1,1,1,1,1,1,1,9,1,0,1,0,0,1,5,4,2,4,5,5,5,1,4,5,2,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok","University, Company",True
+22,18-24,Female,Female,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,4,5,4,5,3,5,4,3,2,4,4,4,"Facebook, Instagram, YouTube",University,True
+20,18-24,Male,Male,Divorced,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,5,5,5,5,5,5,5,5,5,5,5,5,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+22,18-24,Other,Non-binary & Other,In a relationship,Salaried Worker,True,More than 5 hours,5.5,1,0,1,1,1,0,0,0,0,4,0,0,1,0,0,1,4,5,5,5,1,3,3,4,2,1,2,1,"Facebook, Instagram, YouTube, Snapchat",Company,True
+27,25-34,Female,Female,Single,Salaried Worker,True,Between 3 and 4 hours,3.5,1,0,1,0,1,1,0,1,1,6,0,0,0,1,0,1,3,3,3,3,4,4,4,4,3,5,3,4,"Facebook, Instagram, Snapchat, Discord, Pinterest, TikTok",Private,True
+24,18-24,Male,Male,Single,Salaried Worker,True,More than 5 hours,5.5,1,1,1,1,1,1,1,1,0,8,0,0,1,0,0,1,5,2,2,2,4,2,2,3,3,2,1,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",Company,True
+21,18-24,Female,Female,Married,University Student,True,Between 1 and 2 hours,1.5,1,0,1,1,1,0,0,0,0,4,1,0,1,0,0,1,5,5,2,4,5,5,5,1,5,4,5,5,"Facebook, Instagram, YouTube, Snapchat","University, Company",True
+23,18-24,Female,Female,Single,University Student,True,Less than an Hour,0.5,0,0,0,1,0,0,0,1,0,2,1,0,0,0,0,1,3,2,1,1,2,1,1,2,2,3,4,3,"YouTube, Pinterest",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,0,0,1,1,0,6,1,0,0,0,0,1,4,4,2,5,4,4,2,3,2,3,3,5,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest",University,True
+23,18-24,Female,Female,In a relationship,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,1,0,0,0,0,5,1,0,0,0,0,1,4,4,3,3,4,2,4,2,3,2,2,1,"Facebook, Twitter, Instagram, YouTube, Snapchat",University,True
+24,18-24,Female,Female,In a relationship,University Student,True,Between 4 and 5 hours,4.5,1,1,1,1,1,1,0,1,1,8,1,0,0,0,0,1,3,2,2,3,5,3,5,2,3,5,5,4,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",University,True
+21,18-24,Male,Male,Single,University Student,True,Between 4 and 5 hours,4.5,1,1,1,1,1,1,1,1,1,9,1,0,0,0,0,1,3,2,2,3,4,3,1,3,2,5,2,4,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",University,True
+30,25-34,Female,Female,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,1,1,0,0,0,0,0,3,0,0,0,0,0,1,4,5,3,5,5,5,4,2,5,4,5,4,"Facebook, Instagram, YouTube",,True
+23,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,1,1,1,0,0,7,1,0,0,0,0,1,3,4,2,2,5,4,5,5,5,5,2,2,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",University,True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,4,3,3,3,2,2,3,3,1,1,3,2,"Facebook, Instagram, YouTube, Snapchat",University,True
+29,25-34,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,1,1,6,1,0,0,0,0,1,5,5,3,5,4,5,5,3,3,5,5,5,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",University,True
+20,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,0,0,1,1,0,1,1,1,0,5,1,1,0,0,0,1,4,3,2,3,5,5,5,5,5,5,5,1,"Instagram, YouTube, Discord, Reddit, Pinterest","School, University",True
+27,25-34,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,0,1,0,0,0,0,0,2,1,0,0,0,0,1,4,2,2,3,5,3,5,2,3,4,5,5,"Facebook, YouTube",University,True
+24,18-24,Male,Male,Single,Salaried Worker,True,Between 1 and 2 hours,1.5,1,1,1,1,1,1,1,1,1,9,0,0,1,0,0,1,3,4,1,3,3,2,3,3,4,5,3,3,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",Company,True
+26,25-34,Male,Male,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,4,5,3,4,4,4,5,1,2,3,4,3,"Facebook, Instagram, YouTube, Snapchat",University,True
+22,18-24,Male,Male,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,0,1,0,1,0,0,0,3,1,0,1,0,0,1,5,4,2,3,3,4,3,4,1,2,2,4,"Facebook, YouTube, Discord","University, Company",True
+23,18-24,Male,Male,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,1,0,1,1,7,1,0,0,1,0,1,5,5,2,4,5,3,5,3,2,3,3,4,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok","University, Private",True
+19,18-24,Male,Male,Single,School Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,1,1,1,0,7,0,1,0,0,0,1,4,4,2,4,4,4,5,2,4,2,4,4,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",School,True
+21,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,0,1,1,1,0,0,0,0,1,4,1,0,0,0,0,1,3,4,3,4,4,4,5,1,2,4,4,2,"Twitter, Instagram, YouTube, TikTok",University,True
+20,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,1,1,1,1,8,1,0,0,0,0,1,5,5,5,5,5,5,2,3,2,4,4,5,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",University,True
+22,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,4,4,4,4,2,3,2,3,4,3,3,4,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+22,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,0,1,0,1,0,6,1,0,0,0,0,1,3,3,3,4,5,5,4,3,1,5,3,3,"Facebook, Twitter, Instagram, YouTube, Discord, Pinterest",University,True
+23,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,1,1,1,0,0,7,1,0,0,0,0,1,5,4,4,5,5,5,2,3,1,5,5,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",University,True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,4,5,5,5,5,5,5,2,4,5,4,1,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+20,18-24,Female,Female,In a relationship,School Student,True,More than 5 hours,5.5,1,1,1,1,1,1,0,1,1,8,0,0,1,1,0,1,5,4,2,3,3,2,1,3,3,2,2,2,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok","Company, Private",True
+27,25-34,Female,Female,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,1,1,0,0,0,1,0,4,0,0,0,1,0,1,4,2,1,2,3,1,2,3,4,2,2,1,"Facebook, Instagram, YouTube, Pinterest",Private,True
+22,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,5,4,4,4,4,4,2,4,3,5,4,3,"Facebook, Instagram, YouTube, Snapchat",University,True
+21,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,4,4,3,5,4,5,4,3,4,5,5,5,Facebook,University,True
+21,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,1,0,0,1,0,6,1,0,0,0,0,1,2,1,4,2,2,2,3,3,2,1,4,4,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",University,True
+24,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,0,0,0,0,4,0,0,0,0,0,1,3,4,1,5,4,5,3,3,4,5,5,5,"Facebook, Instagram, YouTube, Snapchat",,True
+19,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,0,0,0,0,0,4,1,0,0,0,0,1,4,2,3,3,4,3,2,2,2,4,4,3,"Facebook, Twitter, Instagram, YouTube",University,True
+52,45+,Male,Male,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,0,1,0,0,0,0,0,2,0,0,0,1,0,1,2,2,3,3,3,2,3,2,2,3,2,4,"Facebook, YouTube",Private,True
+26,25-34,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,0,0,1,1,1,6,1,0,0,0,0,1,5,4,3,4,4,4,3,3,2,3,4,5,"Facebook, Instagram, YouTube, Reddit, Pinterest, TikTok",University,True
+44,35-44,Male,Male,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,1,1,2,1,1,1,1,1,1,1,1,Facebook,Private,True
+44,35-44,Male,Male,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,Facebook,Private,True
+19,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,0,1,0,1,0,1,0,4,1,0,0,0,0,1,4,5,2,4,5,3,5,5,1,5,4,5,"Facebook, YouTube, Discord, Pinterest",University,True
+35,35-44,Male,Male,Single,Salaried Worker,True,Between 3 and 4 hours,3.5,1,0,0,0,1,0,1,0,0,3,0,0,0,1,0,1,5,5,5,5,5,5,5,1,1,5,5,5,"Facebook, Snapchat, Reddit",Private,True
+21,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,0,1,0,1,0,0,0,0,3,1,0,0,0,0,1,3,5,2,5,3,5,4,2,4,4,3,3,"Facebook, Instagram, Snapchat",University,True
+20,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,0,0,0,0,0,1,3,1,0,0,0,0,1,4,5,5,5,5,5,2,2,1,4,5,1,"Facebook, Instagram, TikTok",University,True
+24,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,1,1,1,0,0,1,0,0,5,0,0,0,1,0,1,5,2,4,2,5,1,3,2,4,4,2,5,"Facebook, Twitter, Instagram, YouTube, Reddit",Private,True
+21,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,0,1,1,0,5,1,1,0,0,0,1,4,4,3,5,5,5,5,1,1,3,3,1,"Facebook, Instagram, YouTube, Reddit, Pinterest","School, University",True
+24,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,0,1,1,0,0,5,1,0,0,0,0,1,3,4,4,4,3,3,2,3,1,3,3,3,"Facebook, Instagram, YouTube, Discord, Reddit",University,True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,5,3,3,5,5,5,5,3,1,5,4,5,"Facebook, Instagram, YouTube, Snapchat",University,True
+17,<18,Male,Male,Single,School Student,True,More than 5 hours,5.5,1,0,1,1,0,1,0,0,0,4,0,1,0,0,0,1,2,4,3,5,5,5,3,2,1,5,4,5,"Facebook, Instagram, YouTube, Discord",School,True
+26,25-34,Female,Female,In a relationship,University Student,True,Between 4 and 5 hours,4.5,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,4,4,2,4,3,4,3,3,2,4,3,4,Facebook,University,True
+18,18-24,Male,Male,Single,School Student,True,Between 3 and 4 hours,3.5,1,1,1,1,1,1,0,0,1,7,0,1,0,0,0,1,4,5,4,5,5,4,4,3,3,5,3,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",School,True
+18,18-24,Female,Female,Single,School Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,1,0,0,0,4,0,1,0,0,0,1,2,1,1,3,3,2,1,3,1,2,2,2,"Facebook, Instagram, YouTube, Discord","School, N/A",True
+18,18-24,Female,Female,In a relationship,School Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,0,1,1,1,7,0,1,0,0,0,1,5,3,4,3,4,4,1,3,1,3,5,5,"Facebook, Instagram, YouTube, Snapchat, Reddit, Pinterest, TikTok",School,True
+23,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,3,4,2,4,5,4,2,3,2,4,3,3,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+20,18-24,Male,Male,Single,University Student,True,Between 1 and 2 hours,1.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,4,5,3,5,2,5,1,2,3,3,2,1,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+23,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,4,4,3,4,5,4,4,3,2,3,3,5,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+25,25-34,Male,Male,In a relationship,University Student,True,Less than an Hour,0.5,1,1,1,1,0,1,1,1,0,7,1,0,0,0,0,1,2,2,3,2,3,3,3,4,3,2,2,4,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, Pinterest",University,True
+26,25-34,Male,Male,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,1,1,0,0,1,0,0,4,0,0,0,1,0,1,4,3,3,3,5,4,4,1,4,5,5,4,"Facebook, Instagram, YouTube, Reddit",Private,True
+20,18-24,Male,Male,In a relationship,University Student,True,More than 5 hours,5.5,1,1,1,1,1,1,0,0,1,7,1,1,0,0,0,1,4,5,3,4,5,4,5,2,4,4,4,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok","School, University",True
+19,18-24,Male,Male,In a relationship,School Student,True,Between 1 and 2 hours,1.5,1,0,1,1,1,1,1,1,0,7,0,1,0,0,0,1,4,3,1,3,4,2,2,3,3,1,4,3,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",School,True
+17,<18,Female,Female,Single,School Student,True,Between 2 and 3 hours,2.5,1,0,1,1,0,0,0,1,0,4,0,0,0,0,0,1,4,1,3,2,5,4,5,5,1,4,4,1,"Facebook, Instagram, YouTube, Pinterest",,True
+24,18-24,Female,Female,Married,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,4,3,5,3,3,5,4,2,3,3,3,3,"Facebook, Instagram, YouTube, Snapchat",University,True
+29,25-34,Female,Female,Married,Salaried Worker,True,More than 5 hours,5.5,1,0,1,1,0,0,0,1,0,4,0,0,1,0,0,1,5,5,5,4,5,4,3,3,4,4,4,3,"Facebook, Instagram, YouTube, Pinterest",Company,True
+30,25-34,Female,Female,Married,Retired,True,Between 3 and 4 hours,3.5,1,0,1,1,0,0,0,0,0,3,0,0,0,0,0,1,1,5,1,2,3,3,2,4,3,3,3,2,"Facebook, Instagram, YouTube",,True
+21,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,1,1,1,1,1,0,0,1,7,1,0,0,0,0,1,4,5,4,4,5,5,5,1,3,5,4,4,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",University,True
+23,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,1,1,0,7,1,0,0,0,0,1,4,3,2,4,4,4,3,3,3,5,5,5,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",University,True
+21,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,1,1,1,1,0,7,1,0,0,0,0,1,5,5,2,3,4,3,4,4,4,5,3,5,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",University,True
+20,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,0,1,0,0,0,4,1,0,0,0,0,1,3,5,3,5,5,5,5,5,5,5,5,5,"Facebook, Instagram, YouTube, Discord",University,True
+21,18-24,Male,Male,Single,University Student,True,Between 4 and 5 hours,4.5,1,1,1,1,1,1,1,0,0,7,1,0,0,0,0,1,4,3,2,5,5,4,5,1,3,5,5,5,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",University,True
+22,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,1,3,1,2,3,4,2,2,1,1,4,3,5,YouTube,University,True
+22,18-24,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,1,0,0,0,0,0,0,2,1,0,0,0,0,1,3,2,2,2,5,3,5,2,5,3,3,5,"Facebook, Instagram",University,True
+22,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,0,1,0,1,0,0,0,0,3,1,0,0,0,0,1,1,5,2,3,5,2,1,2,2,3,3,4,"Facebook, Instagram, Snapchat",University,True
+27,25-34,Female,Female,In a relationship,Salaried Worker,True,Between 4 and 5 hours,4.5,1,0,1,1,0,0,1,0,1,5,0,0,0,1,0,1,4,3,3,4,3,3,4,2,4,2,1,2,"Facebook, Instagram, YouTube, Reddit, TikTok",Private,True
+21,18-24,Male,Male,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,5,4,2,2,2,3,2,3,1,2,2,5,"Facebook, Instagram, YouTube",University,True
+23,18-24,Male,Male,In a relationship,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,1,1,1,0,1,7,1,0,0,0,0,1,4,3,2,4,4,3,4,4,4,4,3,4,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",University,True
+22,18-24,Male,Male,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,0,1,0,0,0,4,1,0,0,0,0,1,4,4,5,4,2,4,3,3,4,2,3,4,"Facebook, Instagram, YouTube, Discord",University,True
+21,18-24,Female,Female,In a relationship,University Student,True,Between 3 and 4 hours,3.5,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,1,3,4,4,3,3,3,2,5,3,1,3,2,YouTube,"University, Private",True
+23,18-24,Male,Male,Single,University Student,True,Between 2 and 3 hours,2.5,1,0,0,1,0,1,1,0,0,4,1,0,1,0,0,1,4,2,1,2,3,2,3,3,1,3,2,2,"Facebook, YouTube, Discord, Reddit","University, Company",True
+21,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,1,1,1,0,0,0,1,0,5,1,0,0,0,0,1,4,5,3,4,4,4,3,3,4,4,4,3,"Facebook, Twitter, Instagram, YouTube, Pinterest",University,True
+20,18-24,Male,Male,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,0,0,0,0,0,3,1,0,0,1,0,1,5,3,2,3,4,2,2,4,3,3,4,3,"Facebook, Instagram, YouTube","University, Private",True
+23,18-24,Male,Male,Single,University Student,True,Between 1 and 2 hours,1.5,1,0,1,1,0,1,1,1,0,6,1,0,0,0,0,1,2,1,1,2,5,3,3,4,1,3,2,4,"Facebook, Instagram, YouTube, Discord, Reddit, Pinterest",University,True
+22,18-24,Female,Female,In a relationship,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,0,0,1,1,6,1,0,0,0,0,1,3,5,3,5,5,5,5,3,3,5,4,5,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",University,True
+20,18-24,Female,Female,In a relationship,University Student,True,More than 5 hours,5.5,1,0,1,1,1,0,0,0,0,4,1,0,0,0,0,1,5,3,4,3,5,5,5,1,4,5,5,3,"Facebook, Instagram, YouTube, Snapchat",University,True
+21,18-24,Male,Male,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,1,1,1,0,0,0,5,1,0,0,0,0,1,4,4,4,4,4,5,4,1,4,4,4,5,"Facebook, Instagram, YouTube, Snapchat, Discord",University,True
+25,25-34,Female,Female,Single,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,0,0,0,1,0,5,1,0,0,0,0,1,3,5,2,2,3,3,1,3,1,2,4,5,"Facebook, Twitter, Instagram, YouTube, Pinterest",University,True
+21,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,1,0,1,0,0,1,0,0,0,3,1,0,0,0,0,1,2,2,1,4,4,4,2,1,1,2,2,2,"Facebook, Instagram, Discord",University,True
+28,25-34,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,1,1,0,1,1,0,0,5,1,0,0,0,0,1,4,3,1,4,5,4,1,3,1,4,1,5,"Facebook, Instagram, YouTube, Discord, Reddit",University,True
+22,18-24,Female,Female,Single,Salaried Worker,True,Between 3 and 4 hours,3.5,1,0,1,1,1,1,1,1,1,8,0,0,0,1,0,1,1,1,1,5,3,5,1,1,1,3,4,3,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",Private,True
+60,45+,Male,Male,Single,Retired,True,Between 2 and 3 hours,2.5,1,0,0,1,0,0,0,0,0,2,0,0,0,0,0,1,1,2,1,1,1,1,3,3,3,1,1,1,"Facebook, YouTube",,True
+49,45+,Male,Male,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,0,1,0,0,0,1,0,3,0,1,0,0,0,1,3,4,3,3,4,3,3,3,3,3,2,2,"Facebook, YouTube, Pinterest",School,True
+34,25-34,Female,Female,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,1,1,0,0,0,0,0,3,0,0,0,1,0,1,2,1,1,1,1,1,3,4,1,1,2,1,"Facebook, Instagram, YouTube",Private,True
+56,45+,Male,Male,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,1,1,0,1,0,0,0,1,0,4,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,2,"Facebook, Twitter, YouTube, Pinterest",Company,True
+51,45+,Male,Male,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,1,1,1,0,0,0,0,0,4,0,0,0,1,0,1,3,2,3,4,2,3,4,3,3,2,2,4,"Facebook, Twitter, Instagram, YouTube",Private,True
+23,18-24,Female,Female,Single,School Student,True,Between 2 and 3 hours,2.5,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,3,3,3,3,3,2,2,3,3,4,2,2,Facebook,University,True
+21,18-24,Female,Female,Single,University Student,True,Between 4 and 5 hours,4.5,1,0,0,1,0,1,0,0,0,3,1,0,0,0,0,1,3,5,3,3,3,2,3,3,1,2,2,3,"Facebook, YouTube, Discord",University,True
+50,45+,Male,Male,Married,University Student,True,Between 1 and 2 hours,1.5,1,0,1,0,0,0,0,0,0,2,0,0,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,"Facebook, Instagram",Private,True
+22,18-24,Female,Female,Single,University Student,True,Between 3 and 4 hours,3.5,0,1,1,1,0,0,0,0,0,3,1,0,0,0,0,1,2,2,1,4,5,5,1,4,1,3,5,2,"Twitter, Instagram, YouTube",University,True
+28,25-34,Female,Female,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,1,1,0,0,0,1,0,4,0,0,0,1,0,1,5,4,1,5,4,5,2,2,2,5,5,2,"Facebook, Instagram, YouTube, Pinterest",Private,True
+13,<18,Male,Male,Single,School Student,True,Between 4 and 5 hours,4.5,0,0,1,1,0,1,0,0,0,3,0,1,0,0,0,1,3,4,1,3,3,1,1,3,1,3,3,4,"Instagram, YouTube, Discord",School,True
+14,<18,Male,Male,Single,School Student,True,Between 2 and 3 hours,2.5,0,0,1,0,0,1,0,0,0,2,0,1,0,0,0,1,3,4,2,4,3,2,1,3,1,2,3,1,"Instagram, Discord",School,True
+13,<18,Male,Male,Single,School Student,True,More than 5 hours,5.5,0,1,1,1,0,1,0,1,0,5,0,1,0,0,0,1,4,4,3,4,2,4,2,3,2,2,3,2,"Twitter, Instagram, YouTube, Discord, Pinterest",School,True
+23,18-24,Male,Male,In a relationship,School Student,True,Between 4 and 5 hours,4.5,1,0,1,1,0,1,0,0,0,4,1,0,0,1,0,1,2,4,2,3,4,4,1,3,1,3,2,3,"Facebook, Instagram, YouTube, Discord","University, Private",True
+18,18-24,Male,Male,Single,University Student,True,Between 1 and 2 hours,1.5,0,0,0,0,0,1,1,0,0,2,1,0,0,0,0,1,3,3,1,3,2,1,1,2,1,1,2,4,"Discord, Reddit",University,True
+18,18-24,Male,Male,Single,School Student,True,More than 5 hours,5.5,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,2,3,1,3,5,3,5,1,2,5,2,1,Pinterest,"School, N/A",True
+15,<18,Male,Male,Single,School Student,True,Between 4 and 5 hours,4.5,0,0,1,1,0,1,1,0,0,4,0,1,0,0,0,1,1,1,1,3,3,3,3,3,3,1,1,1,"Instagram, YouTube, Discord, Reddit",School,True
+20,18-24,Female,Female,Single,University Student,True,Between 1 and 2 hours,1.5,0,0,1,1,1,1,1,1,1,7,0,0,1,0,0,1,2,2,1,3,5,3,5,1,2,5,4,5,"Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",Company,True
+20,18-24,Female,Female,Single,University Student,True,More than 5 hours,5.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,5,4,2,4,5,3,1,3,2,4,3,4,"Facebook, Instagram, YouTube",University,True
+35,35-44,Female,Female,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,1,1,0,0,0,0,0,3,0,0,1,0,0,1,3,2,2,3,3,2,1,2,2,2,4,4,"Facebook, Instagram, YouTube",Company,True
+26,25-34,Female,Female,Married,University Student,True,Between 2 and 3 hours,2.5,1,0,0,1,0,0,0,0,1,3,0,0,0,0,0,1,4,4,3,3,4,4,4,5,3,4,3,4,"Facebook, YouTube, TikTok",,True
+30,25-34,Female,Female,Married,Salaried Worker,True,Between 4 and 5 hours,4.5,1,0,1,1,0,0,0,0,0,3,1,0,0,0,0,1,2,4,4,3,4,5,4,2,2,4,2,1,"Facebook, Instagram, YouTube",University,True
+32,25-34,Female,Female,Married,Salaried Worker,True,Between 3 and 4 hours,3.5,1,0,1,0,0,0,0,0,0,2,0,0,0,1,0,1,5,5,3,5,5,5,5,1,4,5,5,4,"Facebook, Instagram",Private,True
+24,18-24,Male,Male,Single,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,1,1,0,0,0,0,0,3,1,0,0,1,0,1,3,4,3,4,3,4,4,2,4,3,4,4,"Facebook, Instagram, YouTube","University, Private",True
+26,25-34,Female,Female,Married,Salaried Worker,True,Between 1 and 2 hours,1.5,1,0,0,1,0,0,0,0,0,2,1,0,0,0,0,1,2,1,2,3,4,4,4,2,4,4,4,1,"Facebook, YouTube",University,True
+29,25-34,Female,Female,Married,Salaried Worker,True,Between 2 and 3 hours,2.5,1,0,0,1,0,0,0,0,0,2,1,0,0,0,0,1,3,3,4,3,2,3,3,3,4,2,2,2,"Facebook, YouTube",University,True
+21,18-24,Male,Male,Single,University Student,True,Between 2 and 3 hours,2.5,1,1,1,1,0,1,0,1,0,6,1,0,0,0,0,1,2,3,2,3,3,2,2,3,4,4,5,4,"Facebook, Twitter, Instagram, YouTube, Discord, Pinterest",University,True
+53,45+,Male,Male,Married,Salaried Worker,True,Less than an Hour,0.5,1,0,0,1,0,0,0,0,0,2,0,0,0,1,0,1,2,3,1,3,1,1,3,3,2,2,2,3,"Facebook, YouTube",Private,True
