@@ -1,72 +1,219 @@
+# Social Media & Mental Wellbeing Insights (Tableau + Streamlit)
+
+A data app that explores how social media usage patterns (time spent, distraction, comparison, validation-seeking) relate to **self-reported wellbeing indicators** (low mood, sleep issues, worry, concentration) in a public survey dataset.
+
+This project is for learning and communication of data insights. It is **not medical advice** and does **not** diagnose, predict, or treat mental health conditions.
+
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-## Template Instructions
+---
 
-Welcome,
+## Live Links
+- Streamlit App: *(... )*
+- Tableau Public Dashboard: *(... )*
 
-This is the Code Institute student template for the Data Analytics capstone project. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+---
 
-You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
+## Project Purpose
+People often *feel* that social media affects their wellbeing, but it’s hard to pinpoint which behaviours are most associated with negative outcomes (e.g., purposeless scrolling, distraction, constant comparison).
 
-## How to use this repo
+This project provides a **clear, ethical, non-clinical** analytics view of those associations, with:
+- plain-English takeaways for non-technical users
+- transparent methods for technical reviewers
+- governance and harm-reduction decisions documented throughout
 
-1. Use this template to create your GitHub project repo. Click the **Use this template** button, then click **Create a new repository**.
+### Target audience
+- Digital wellbeing / student support / community wellbeing stakeholders (non-clinical)
+- Product teams exploring “healthy use” features (high-level insights only)
+- Individuals curious about patterns (educational use)
 
-1. Copy the URL of your repository to your clipboard.
+---
 
-1. In VS Code, select **File** -> **Open Folder**.
+## Dataset
+**Source:** Kaggle — *“Social Media and Mental Health”* (`smmh.csv`)  
+**Rows / Columns:** 481 rows × 21 columns  
+**Type:** Self-reported survey responses
 
-1. Select your `vscode-projects` folder, then click the **Select Folder** button on Windows, or the **Open** button on Mac.
+### What’s in the data (high level)
+- **Demographics:** age, gender, relationship status, occupation status, organisation affiliation
+- **Usage:** social media usage (Yes/No), platforms used, daily time spent (time bands)
+- **Behaviour (Likert / frequency):** purposeless use, distraction, restlessness, validation-seeking, comparison
+- **Wellbeing indicators (Likert):** low mood frequency, sleep issues, worry, concentration difficulty, interest fluctuation
 
-1. From the top menu in VS Code, select **Terminal** > **New Terminal** to open the terminal.
+---
 
-1. In the terminal, type `git clone` followed by the URL of your GitHub repository. Then hit **Enter**. This command will download all the files in your GitHub repository into your vscode-projects folder.
+## Data Handling & Cleaning (ETL)
+Because the dataset includes wellbeing-related survey responses, the project follows a **data minimisation** approach and avoids unnecessary personal data exposure.
 
-1. In VS Code, select **File** > **Open Folder** again.
+Key ETL steps (Python):
+- Rename long survey questions into short, readable feature names (data dictionary generated)
+- Standardise categorical values (e.g., gender variants, consistent casing)
+- Convert Likert responses to numeric (1–5) and validate ranges
+- Parse the multi-select platforms field into platform flags (e.g., `uses_instagram = 0/1`)
+- Handle missing values (organisation affiliation → `Unknown`)
+- Filter or flag the small number of respondents who answered **“No”** to using social media (so comparisons aren’t misleading)
+- **Drop `Timestamp`** from the processed dataset to reduce re-identification risk
+- Save cleaned data to `data/processed/v1/`
 
-1. This time, navigate to and select the folder for the project you just downloaded. Then, click **Select Folder**.
+Outputs produced:
+- `data/processed/v1/smmh_clean.csv`
+- `docs/data_dictionary.md`
 
-1. A virtual environment is necessary when working with Python projects to ensure each project's dependencies are kept separate from each other. You need to create your virtual environment, also called a venv, and then ensure that it is activated any time you return to your workspace.
-Click the gear icon in the lower left-hand corner of the screen to open the Manage menu and select **Command Palette** to open the VS Code command palette.
+---
 
-1. In the command palette, type: *create environment* and select **Python: Create Environment…**
+## Business Requirements (What the App Must Answer)
+1. **Usage Overview**
+   - How much time do respondents spend on social media daily?
+   - Which platforms are most commonly used?
+2. **Wellbeing Overview**
+   - What is the distribution of self-reported wellbeing indicators (low mood, sleep issues, worry, etc.)?
+3. **Key Associations**
+   - Which usage behaviours are most strongly associated with negative wellbeing indicators *in this dataset*?
+4. **Segment Comparisons**
+   - Do patterns differ by age band, gender (carefully aggregated), occupation status, etc.?
+5. **Evidence**
+   - Provide statistical tests + effect sizes where appropriate, with plain-English interpretation.
+6. **Predictive Prototype (Optional, Non-clinical)**
+   - A simple model that estimates the likelihood of **higher self-reported low mood frequency** based on usage behaviours.
+   - Shown as an educational prototype only (not for decisions or profiling).
 
-1. Choose **Venv** from the dropdown list.
+---
 
-1. Choose the Python version you installed earlier. Currently, we recommend Python 3.12.8
+## Hypotheses Tested (Association, Not Causation)
+> These tests evaluate relationships in the dataset only. They do not establish causation.
 
-1. **DO NOT** click the box next to `requirements.txt`, as you need to do more steps before you can install your dependencies. Click **OK**.
+**Primary outcome used for several tests:** `low_mood_freq` (survey Q18, 1–5)
 
-1. You will see a `.venv` folder appear in the file explorer pane to show that the virtual environment has been created.
+**H1:** Higher daily time spent is associated with higher low mood frequency.  
+- Test: Kruskal–Wallis (time bands vs low mood) + effect size  
+- Visual: box/violin by daily time band
 
-1. **Important**: Note that the `.venv` folder is in the `.gitignore` file so that Git won't track it.
+**H2:** More purposeless use is associated with higher low mood frequency.  
+- Test: Spearman correlation + effect size  
+- Visual: binned trend or scatter
 
-1. Return to the terminal by clicking on the TERMINAL tab, or click on the **Terminal** menu and choose **New Terminal** if no terminal is currently open.
+**H3:** Higher comparison frequency is associated with higher low mood frequency.  
+- Test: Spearman correlation  
+- Visual: binned bars or scatter
 
-1. In the terminal, use the command below to install your dependencies. This may take several minutes.
+**H4:** Validation-seeking is associated with higher low mood frequency.  
+- Test: Spearman correlation  
+- Visual: box/violin or binned % high outcome
 
- ```console
- pip3 install -r requirements.txt
- ```
+**H5:** Distraction / restlessness is associated with sleep issues.  
+- Test: Spearman correlation + group comparison  
+- Visual: grouped bars or scatter
 
-1. Open the `jupyter_notebooks` directory, and click on the notebook you want to open.
+(Additional hypotheses are included only if they directly support a business requirement.)
 
-1. Click the **kernel** button and choose **Python Environments**.
+---
 
-Note that the kernel says `Python 3.12.8` as it inherits from the venv, so it will be Python-3.12.8 if that is what is installed on your PC. To confirm this, you can use the command below in a notebook code cell.
+## Dashboard Deliverables (Tableau + Streamlit)
 
-```console
-! python --version
-```
+### Tableau Dashboard (Main Analytics Surface)
+The Tableau dashboard includes **at least 4 different plot types**, each tied to a business requirement:
+- **Bar charts:** platform usage + daily time distribution
+- **Heatmap:** behaviour metrics vs wellbeing indicators (correlation or binned rates)
+- **Box/violin plots:** low mood by time band / comparison / validation levels
+- **Scatter plot:** behaviour vs outcome relationships  
+(Plus optional: KPI tiles, stacked bars, small multiples)
 
-## Deployment Reminders
+Key Tableau interactions:
+- Filters for time band, age band, gender (aggregated), occupation status, platform flags
+- Clear chart titles + short “What this means” annotations
 
-* Set the `.python-version` Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version that closest matches what you used in this project.
-* The project can be deployed to Heroku using the following steps.
+### Streamlit App (Narrative + Governance + Guided Use)
+The Streamlit app wraps the project into a user-friendly experience and supports the capstone learning outcomes:
 
-1. Log in to Heroku and create an App
-2. At the **Deploy** tab, select **GitHub** as the deployment method.
-3. Select your repository name and click **Search**. Once it is found, click **Connect**.
-4. Select the branch you want to deploy, then click **Deploy Branch**.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button **Open App** at the top of the page to access your App.
-6. If the slug size is too large, then add large files not required for the app to the `.slugignore` file.
+- **Page 1 — Overview**
+  - Dataset context, who it represents, headline KPIs and distributions
+- **Page 2 — Insights (Non-technical)**
+  - 2–3 plain-English takeaways with supportive visuals
+- **Page 3 — Deep Dive (Technical)**
+  - Statistical tests, assumptions, effect sizes, and limitations
+- **Page 4 — Ethics & Governance**
+  - Privacy decisions, legal/social implications, bias and harm mitigation
+- **Page 5 — Tableau Dashboard**
+  - Embedded Tableau Public report + “How to use this dashboard” guidance
+
+---
+
+## Ethics, Privacy & Governance (LO1)
+This project includes self-reported wellbeing indicators. In real-world use, this type of data can be **sensitive** and requires stronger governance.
+
+### Key ethical risks and mitigations
+- **Privacy & re-identification risk**
+  - Mitigation: drop timestamps, avoid row-level displays, report aggregates, suppress very small groups.
+- **Stigma / harm from misinterpretation**
+  - Mitigation: avoid diagnostic language, present associations not “effects”, include limitations prominently.
+- **Bias & representativeness**
+  - Mitigation: document sampling limitations (survey skew), avoid broad generalisations, compare patterns across segments carefully.
+- **Automated profiling risk (if modelling is included)**
+  - Mitigation: the prototype is educational only, clearly labelled, and not intended for decisions about individuals.
+
+### Governance practices used in this repo
+- Data minimisation and clear purpose
+- Documented feature definitions (data dictionary)
+- Versioned datasets (`v1`, `v2`, …) to support reproducibility
+- Clear attribution of dataset and sources
+
+---
+
+## Legal & Social Implications (LO1)
+- **Legal:** wellbeing-related data requires careful handling in real deployments (lawful basis, additional safeguards, access controls). This project is published as educational analytics and avoids individual-level outputs.
+- **Social:** dashboards can unintentionally reinforce stigma or “one-size-fits-all” narratives. This project uses careful wording, avoids causal claims, and focuses on patterns at group level.
+
+---
+
+## Communication Strategy (LO2)
+To make insights accessible to both technical and non-technical audiences:
+- Each key visual includes a **plain-English “What this means”** explanation.
+- The app separates:
+  - **Insights layer:** simple summaries + actionable interpretations
+  - **Methods layer:** test choice, assumptions, effect sizes, caveats
+- Documentation is structured and consistent (README + data dictionary + notebook commentary).
+
+---
+
+## Project Plan (LO3)
+
+### Implementation
+- ETL + validation → processed dataset
+- EDA + hypothesis testing notebooks
+- Tableau dashboard build (Tableau Public)
+- Streamlit wrapper pages + embed Tableau report
+- UX + accessibility pass (labels, readable layout, clear navigation)
+
+### Maintenance (If this were a real app)
+- Refresh cadence: monthly/quarterly
+- Data validation checks: schema, value ranges (Likert 1–5), missingness thresholds
+- Versioning approach: `data/processed/v2/` etc.
+
+### Updates
+- Improve platform feature engineering (multi-platform intensity)
+- Stronger segment checks (age bands, gender standardisation)
+- Better explanatory text and annotations based on feedback
+
+### Evaluation
+- Lightweight user testing (3–5 users)
+- Success criteria:
+  - Non-technical users can explain 2 key insights correctly
+  - Users understand limitations (association ≠ causation)
+  - Navigation and labels are intuitive
+
+---
+
+## Tools Used
+- Python: pandas, numpy
+- Stats: scipy.stats / statsmodels
+- Visuals: matplotlib / plotly (supporting charts)
+- App UI: streamlit
+- BI: Tableau Public (dashboard + embed)
+
+---
+
+## How to Run Locally
+1. Clone the repo
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
