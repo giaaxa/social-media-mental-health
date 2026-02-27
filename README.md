@@ -1,4 +1,4 @@
-# Social Media & Mental Wellbeing Insights (Tableau + Streamlit)
+# Social Media & Mental Wellbeing Insights
 
 A data app that explores how social media usage patterns (time spent, distraction, comparison, validation-seeking) relate to **self-reported wellbeing indicators** (low mood, sleep issues, worry, concentration) in a public survey dataset.
 
@@ -9,8 +9,7 @@ This project is for learning and communication of data insights. It is **not med
 ---
 
 ## Live Links
-- Streamlit App: *(... )*
-- Tableau Public Dashboard: *(... )*
+- Streamlit App: *(coming soon)*
 
 ---
 
@@ -108,22 +107,9 @@ Outputs produced:
 
 ---
 
-## Dashboard Deliverables (Tableau + Streamlit)
+## Streamlit App Structure
 
-### Tableau Dashboard (Main Analytics Surface)
-The Tableau dashboard includes **at least 4 different plot types**, each tied to a business requirement:
-- **Bar charts:** platform usage + daily time distribution
-- **Heatmap:** behaviour metrics vs wellbeing indicators (correlation or binned rates)
-- **Box/violin plots:** low mood by time band / comparison / validation levels
-- **Scatter plot:** behaviour vs outcome relationships  
-(Plus optional: KPI tiles, stacked bars, small multiples)
-
-Key Tableau interactions:
-- Filters for time band, age band, gender (aggregated), occupation status, platform flags
-- Clear chart titles + short “What this means” annotations
-
-### Streamlit App (Narrative + Governance + Guided Use)
-The Streamlit app wraps the project into a user-friendly experience and supports the capstone learning outcomes:
+The Streamlit app provides a user-friendly experience with interactive visualisations:
 
 - **Page 1 — Overview**
   - Dataset context, who it represents, headline KPIs and distributions
@@ -133,8 +119,10 @@ The Streamlit app wraps the project into a user-friendly experience and supports
   - Statistical tests, assumptions, effect sizes, and limitations
 - **Page 4 — Ethics & Governance**
   - Privacy decisions, legal/social implications, bias and harm mitigation
-- **Page 5 — Tableau Dashboard**
-  - Embedded Tableau Public report + “How to use this dashboard” guidance
+- **Page 5 — Interactive Dashboard**
+  - Plotly-powered interactive charts with filters for exploration
+  - Bar charts, heatmaps, box plots, and scatter plots
+  - Filters for time band, age band, gender, occupation status
 
 ---
 
@@ -180,8 +168,7 @@ To make insights accessible to both technical and non-technical audiences:
 ### Implementation
 - ETL + validation → processed dataset
 - EDA + hypothesis testing notebooks
-- Tableau dashboard build (Tableau Public)
-- Streamlit wrapper pages + embed Tableau report
+- Streamlit app with interactive Plotly dashboard
 - UX + accessibility pass (labels, readable layout, clear navigation)
 
 ### Maintenance (If this were a real app)
@@ -206,9 +193,8 @@ To make insights accessible to both technical and non-technical audiences:
 ## Tools Used
 - Python: pandas, numpy
 - Stats: scipy.stats / statsmodels
-- Visuals: matplotlib / plotly (supporting charts)
+- Visuals: plotly (interactive charts)
 - App UI: streamlit
-- BI: Tableau Public (dashboard + embed)
 
 ---
 

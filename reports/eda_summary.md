@@ -1,6 +1,6 @@
 # EDA Summary Report
 
-**Generated:** 2026-02-24 00:34
+**Generated:** 2026-02-26 19:31
 **Dataset:** smmh_clean.csv (n=478 social media users)
 
 ## Key Findings
